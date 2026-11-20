@@ -1,0 +1,1800 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DreesLoop | Atelier Vintage & Alquiler de Outfits • Puerto Iguazú</title>
+  <meta name="description" content="DreesLoop en Puerto Iguazú, Misiones. Alquiler de vestidos de fiesta, gala, egresos y trajes con estilo vintage de autor, depósito de seguridad retornable y gestión transparente.">
+  
+  <!-- Google Fonts Vintage & Editorial -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..800;1,400..800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+  <link rel="apple-touch-icon" href="logo.jpg">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-banner">
+    <p>🌿 <strong>DreesLoop • Puerto Iguazú:</strong> Alquiler de Outfits de Gala & Graduación • 💄 Maquillaje Profesional • 🕒 Lun a Sáb: 7:00 a 12:00 y 14:00 a 21:30 hs (Dom cerrado) ✨</p>
+  </div>
+
+  <!-- Header / Navigation con Logo Vintage Elegante y Acceso a Costos -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      
+      <!-- LOGO OFICIAL DREESLOOP (TEXTO ELEGANTE) -->
+      <a href="#" class="brand-logo-vintage" title="DreesLoop">
+        <span class="logo-brand-name">Drees<span>Loop</span></span>
+      </a>
+
+      <!-- Desktop Nav: Cada opción con su propio botón -->
+      <nav class="main-nav" id="mainNav">
+        <ul class="nav-links">
+          <li><a href="#catalogo" class="nav-link">Catálogo</a></li>
+          <li><a href="#probador-virtual" class="nav-link highlight-mirror">Probador Virtual 🪞</a></li>
+          <li><a href="#garantias" class="nav-link">Garantías & Depósito 🛡️</a></li>
+          <li><a href="#graduaciones" class="nav-link highlight">Graduaciones 🎓</a></li>
+          <li><a href="#maquillaje" class="nav-link highlight-makeup">Maquillaje 💄</a></li>
+          <li><a href="#fidelidad" class="nav-link">Club Fieles ⭐</a></li>
+          <li><a href="#faq" class="nav-link">Preguntas</a></li>
+          <li><button class="nav-link admin-link" id="openAdminCostBtn" title="Acceso privado con contraseña para la dueña">🔒 Costos</button></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="header-actions">
+        <a href="#registro-reserva" class="btn-header-cta d-none-mobile">
+          <span>Ficha de Reserva</span>
+        </a>
+
+        <button class="search-trigger-btn" id="searchTriggerBtn" title="Buscar outfit" aria-label="Buscar outfit">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </button>
+
+        <button class="cart-btn" id="cartOpenBtn" aria-label="Ver bolsa de alquiler">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+          <span class="cart-label">Bolsa</span>
+          <span class="cart-badge" id="cartCount">0</span>
+        </button>
+
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section Vintage -->
+  <section class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <span class="vintage-tag-badge">📍 DreesLoop • Puerto Iguazú, Misiones • 🕒 Lun-Sáb: 7-12 y 14-21:30 hs</span>
+        <h1 class="hero-title">Estrena tu outfit soñado con <em>estilo vintage</em> y alta costura.</h1>
+        <p class="hero-desc">
+          Encuentra en <strong>Puerto Iguazú</strong> vestidos de gala, trajes sastreros para graduaciones y prendas vintage de autor, junto a nuestro exclusivo <strong>servicio de maquillaje profesional de fiesta</strong> para salir lista de pies a cabeza.
+          Alquiler con <strong>garantía de sanitización a vapor 100°C, prueba de calce sin cargo y depósito de seguridad 100% reembolsable</strong> al devolver la prenda en buen estado.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#catalogo" class="btn btn-primary">
+            Explorar Catálogo (+26 looks)
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#probador-virtual" class="btn btn-secondary">Probar Look Virtual 🪞</a>
+        </div>
+
+        <div class="hero-perks">
+          <div class="perk-item">
+            <span class="perk-icon">🛡️</span>
+            <div>
+              <strong>Depósito Retornable</strong>
+              <small>100% reembolsable al devolver</small>
+            </div>
+          </div>
+          <div class="perk-item">
+            <span class="perk-icon">👗</span>
+            <div>
+              <strong>Vestidos & Trajes</strong>
+              <small>Alta gama y diseño de autor</small>
+            </div>
+          </div>
+          <div class="perk-item">
+            <span class="perk-icon">💄</span>
+            <div>
+              <strong>Maquillaje Profesional</strong>
+              <small>Look total en DreesLoop</small>
+            </div>
+          </div>
+          <div class="perk-item">
+            <span class="perk-icon">✨</span>
+            <div>
+              <strong>Vapor 100°C</strong>
+              <small>Desinfección garantizada</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="hero-vintage-frame">
+          <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=900&q=80" alt="Vestido de gala esmeralda DreesLoop Puerto Iguazú" class="hero-main-img">
+          <div class="floating-vintage-seal">
+            <div class="seal-header">
+              <span class="seal-pill">MÁS ELEGIDO</span>
+              <span class="seal-location">📍 Puerto Iguazú</span>
+            </div>
+            <h4>Vestido Esmeralda Velvet</h4>
+            <div class="price-row">
+              <span class="rental-price">$34.500 <small>/ 4 días</small></span>
+              <span class="retail-val">Compra: $240.000</span>
+            </div>
+            <div style="font-size: 0.72rem; color: var(--color-vintage-terracotta-dark); font-weight: 600; margin-top: 4px;">
+              + $15.000 Depósito de Garantía (reembolsable en mano al devolver)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN DE GARANTÍAS Y POLÍTICA DE CUIDADO DE PRENDAS -->
+  <section class="clothing-guarantees-bar" id="garantias">
+    <div class="container">
+      <div class="section-header text-center" style="margin-bottom: 24px;">
+        <span class="section-subtitle">RESPALDO TOTAL & CONDICIONES CLARAS</span>
+        <h2 class="section-title">Garantías Oficiales & Política de Devolución</h2>
+        <p class="section-desc">Cuidamos el patrimonio textil de nuestra colección. Para asegurar el retorno puntual y el cuidado responsable de nuestras prendas de autor, operamos con un sistema transparente de depósito en garantía.</p>
+      </div>
+
+      <div class="guarantees-grid">
+        <div class="guarantee-card">
+          <div class="guarantee-badge-icon">✨</div>
+          <div class="guarantee-info">
+            <h4>1. Higiene & Vaporizado 100°C</h4>
+            <p>Cada prenda pasa por tintorería ecológica certificada y sanitización a alta temperatura antes de ser entregada precintada.</p>
+          </div>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="guarantee-badge-icon">👗</div>
+          <div class="guarantee-info">
+            <h4>2. Calce Perfecto o Cambio</h4>
+            <p>Prueba sin cargo en DreesLoop Iguazú o cambio exprés e inmediato de talle si al recibirlo no te queda como soñabas.</p>
+          </div>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="guarantee-badge-icon">🔄</div>
+          <div class="guarantee-info">
+            <h4>3. Depósito 100% Reembolsable</h4>
+            <p>Al retirar abonas un depósito de garantía. <strong>Apenas devuelves la prenda en buen estado en fecha pactada, se te reintegra el 100% del dinero en el acto.</strong></p>
+          </div>
+        </div>
+
+        <div class="guarantee-card">
+          <div class="guarantee-badge-icon">⚠️</div>
+          <div class="guarantee-info">
+            <h4>4. Cláusula de Cuidado & No Devolución</h4>
+            <p>Manchas graves, quemaduras o roturas se descontarán del depósito. En caso de no devolución o extravío, se retiene el depósito y se cobra el valor total de reposición.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner Explicativo de la Garantía de Devolución -->
+      <div class="deposit-policy-banner">
+        <div class="icon">🔒</div>
+        <div>
+          <strong>¿Cómo funciona el Depósito de Garantía en DreesLoop Puerto Iguazú?</strong><br>
+          Junto con el valor del alquiler, abonas una caución de seguridad (entre $12.000 y $22.000 según la prenda). 
+          <strong>Este monto es 100% tuyo y se te devuelve en mano o por transferencia en el minuto en que entregas la prenda en condiciones</strong> en DreesLoop (Av. Victoria Aguirre 480). Solo se retiene en caso de que la prenda sufra manchas severas irreversibles, daños o no sea devuelta.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Special Showcase: Graduaciones (Vestidos y Trajes con Diferentes Estilos y Colores) -->
+  <section class="graduation-special-section" id="graduaciones">
+    <div class="container">
+      <div class="section-header text-center grad-header">
+        <span class="section-subtitle" style="color: var(--color-vintage-gold);">COLECCIÓN ESPECIAL RECEPCIONES 2026</span>
+        <h2>Graduaciones & Colaciones en Puerto Iguazú</h2>
+        <p>Preparamos una selección exclusiva para egresadas y egresados: vestidos largos de gala, minivestidos retro, trajes sastreros modernos y smokings en tonos terracota, esmeralda, azul noche, lila pastel y champagne.</p>
+      </div>
+
+      <div class="grad-grid-showcase">
+        <div class="grad-card-feature">
+          <span class="grad-badge">PARA EGRESADAS</span>
+          <h3>Vestidos de Gala & Colación</h3>
+          <p>Desde satén de seda pesado y cortes sirena hasta tules bordados y gasas vaporosas de estilo vintage. Telas fluidas preparadas para el clima cálido de Misiones.</p>
+          <ul>
+            <li>✨ <em>Colores:</em> Esmeralda, Lavanda brillante, Burdeos, Rose Gold y Terracota.</li>
+            <li>✨ <em>Garantía:</em> Tintorería incluida + depósito retornable en el acto.</li>
+            <li>✨ <em>Talles:</em> XS a XXL con servicio de prueba en DreesLoop.</li>
+          </ul>
+          <button class="btn btn-sm btn-terracotta filter-grad-dresses-btn" onclick="filterByGradType('vestidos')">Ver Vestidos de Grado</button>
+        </div>
+
+        <div class="grad-card-feature">
+          <span class="grad-badge">PARA EGRESADOS & MODERN LOOK</span>
+          <h3>Trajes Sastreros & Sets</h3>
+          <p>Opciones formales y vanguardistas. Conjuntos palazzo de dos piezas para ellas y ambos/smokings slim fit con solapa de autor para ellos.</p>
+          <ul>
+            <li>✨ <em>Colores:</em> Azul Medianoche, Terracota Vintage, Marfil Hueso y Negro Smoking.</li>
+            <li>✨ <em>Garantía:</em> Ajustes temporales y cambio de talle garantizado.</li>
+            <li>✨ <em>Seguridad:</em> Contrato formal y reintegro inmediato de garantía.</li>
+          </ul>
+          <button class="btn btn-sm btn-terracotta filter-grad-suits-btn" onclick="filterByGradType('trajes')">Ver Trajes de Grado</button>
+        </div>
+
+        <div class="grad-card-feature">
+          <span class="grad-badge">BENEFICIO PROMO GRADUADOS</span>
+          <h3>Combo Grupo / Amigas</h3>
+          <p>Si alquilan juntas entre compañeras/os de curso o amigas para la fiesta de recepción:</p>
+          <ul>
+            <li>🎓 <strong>15% OFF</strong> reservando 3 o más outfits del mismo colegio.</li>
+            <li>🎓 <strong>Depósito unificado</strong> y facilidades de pago en DreesLoop.</li>
+            <li>🎓 Retiro coordinado en DreesLoop (Av. Victoria Aguirre 480).</li>
+          </ul>
+          <a href="#registro-reserva" class="btn btn-sm btn-secondary" style="border-color: rgba(255,255,255,0.4); color: white;">Consultar Reserva Grupal</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Catalog Section -->
+  <section class="catalog-section" id="catalogo">
+    <div class="container">
+      <div class="section-header">
+        <div class="header-left">
+          <span class="section-subtitle">CATÁLOGO CON PRECIOS & GARANTÍAS EN PUERTO IGUAZÚ</span>
+          <h2 class="section-title">Elige tu look vintage & de autor</h2>
+        </div>
+        <div class="catalog-search-bar">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="catalogSearchInput" placeholder="Buscar por color, vestido, traje, evento..." />
+        </div>
+      </div>
+
+      <!-- Filter Tabs & Controls -->
+      <div class="catalog-controls">
+        <div class="category-tabs" id="categoryTabs">
+          <button class="tab-btn active" data-category="todos">Todos (+26)</button>
+          <button class="tab-btn" data-category="graduacion">Graduaciones 🎓</button>
+          <button class="tab-btn" data-category="trajes">Trajes & Sets Sastreros 👔</button>
+          <button class="tab-btn" data-category="gala">Gala & Noche 🌙</button>
+          <button class="tab-btn" data-category="vintage">Vintage & Retro 📻</button>
+          <button class="tab-btn" data-category="coctel">Cóctel & Civil 🥂</button>
+        </div>
+
+        <div class="filter-dropdowns">
+          <select id="sizeFilter" class="filter-select">
+            <option value="todas">Todas las Tallas</option>
+            <option value="XS">Talla XS</option>
+            <option value="S">Talla S</option>
+            <option value="M">Talla M</option>
+            <option value="L">Talla L</option>
+            <option value="XL">Talla XL</option>
+          </select>
+
+          <select id="sortFilter" class="filter-select">
+            <option value="destacados">Más Destacados</option>
+            <option value="precio-menor">Menor precio de alquiler</option>
+            <option value="precio-mayor">Mayor precio de alquiler</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Injected via JavaScript with updated prices & deposit tags -->
+      </div>
+
+      <!-- Empty state message if search finds nothing -->
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <p>No encontramos prendas con esos filtros en Puerto Iguazú. ¡Prueba buscando otro estilo o limpia los filtros!</p>
+        <button class="btn btn-secondary" id="resetFiltersBtn">Restablecer Filtros</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 1: PROBADOR VIRTUAL & ESPEJO INTERACTIVO DREESLOOP
+       Permite a las clientas elegir una prenda y un estilo de maquillaje sobre la modelo
+       ========================================================================== -->
+  <section class="virtual-fitting-section clueless-theme-section" id="probador-virtual">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">✨ PROBADOR VIRTUAL CLUETRONIC '95 • INSPIRADO EN LA PELÍCULA CLUELESS ✨</span>
+        <h2 class="section-title">Probador Virtual Clueless • <em>"Totally Buggin'!" Combina tu Ropa & Maquillaje</em></h2>
+        <p class="section-desc">Revive el mítico armario inteligente de Cher Horowitz adaptado al Atelier DreesLoop en Puerto Iguazú. Navega por tops y faldas con las flechas, descubre en vivo si tu look es un <strong>MATCH!</strong> o un <strong>MIS-MATCH!</strong>, y sincroniza con tu tono de piel y maquillaje con 40% OFF.</p>
+      </div>
+
+      <!-- Retro 90s Desktop Computer Window (Cher's Wardrobe OS) -->
+      <div class="clueless-computer-window">
+        <!-- Title Bar -->
+        <div class="clueless-win-titlebar">
+          <div class="clueless-win-controls">
+            <span class="win-dot dot-red" title="Cerrar"></span>
+            <span class="win-dot dot-yellow" title="Minimizar"></span>
+            <span class="win-dot dot-green" title="Maximizar"></span>
+          </div>
+          <div class="clueless-win-title">
+            <span class="clueless-icon">💻</span> DREESLOOP CLOSET OS '95 • CHER'S WARDROBE SYSTEM v2.0
+          </div>
+          <div class="clueless-win-actions">
+            <button type="button" class="clueless-sound-toggle" id="cluelessSoundBtn" onclick="toggleCluelessSound()" title="Activar / Desactivar efectos sonoros">
+              <span id="cluelessSoundIcon">🔊</span> <span id="cluelessSoundLabel">FX: ON</span>
+            </button>
+            <span class="clueless-status-badge">● ONLINE IGUAZÚ</span>
+          </div>
+        </div>
+
+        <!-- Menubar / Modes Toolbar -->
+        <div class="clueless-win-menubar">
+          <div class="menubar-modes">
+            <span class="menubar-label">MODO:</span>
+            <button type="button" class="clueless-mode-btn active" id="btnModeMix" onclick="setCluelessMode('mix')">
+              👚 Mix & Match (Tops & Faldas)
+            </button>
+            <button type="button" class="clueless-mode-btn" id="btnModeGown" onclick="setCluelessMode('gown')">
+              👗 Vestidos de Gala & Colación
+            </button>
+          </div>
+
+          <div class="menubar-tools">
+            <button type="button" class="clueless-shuffle-topbar-btn" onclick="shuffleCluelessOutfit()" title="Generar combinación aleatoria automática">
+              🎲 DRESS ME (Shuffle)
+            </button>
+          </div>
+        </div>
+
+        <!-- Main Screen Body -->
+        <div class="clueless-computer-body">
+          <!-- Columna Izquierda: Monitor Virtual Clueless -->
+          <div class="clueless-monitor-col">
+            <div class="clueless-crt-bezel">
+              <!-- Lighting Ambient Toggle Bar -->
+              <div class="clueless-lighting-bar">
+                <span class="lighting-tag">💡 AMBIENTE:</span>
+                <button type="button" class="clueless-light-btn active" data-light="gala" onclick="setMirrorLighting('gala')">
+                  🍸 Salón Gala
+                </button>
+                <button type="button" class="clueless-light-btn" data-light="natural" onclick="setMirrorLighting('natural')">
+                  ☀️ Día Natural
+                </button>
+                <button type="button" class="clueless-light-btn" data-light="golden" onclick="setMirrorLighting('golden')">
+                  ✨ Golden Hour
+                </button>
+              </div>
+
+              <!-- Monitor Screen Glass -->
+              <div class="clueless-screen-glass" id="cluelessScreenGlass">
+                <div class="clueless-light-overlay filter-gala" id="cluelessLightOverlay"></div>
+
+                <!-- Floating MATCH! vs MIS-MATCH! Banner (The Iconic Clueless Feature) -->
+                <div class="clueless-match-box match-box-success" id="cluelessMatchBox">
+                  <div class="match-neon-sign" id="cluelessMatchTitle">
+                    <span class="sparkle-left">✨</span>
+                    <span class="sign-text">MATCH!</span>
+                    <span class="sparkle-right">✨</span>
+                  </div>
+                  <div class="match-quote-bubble" id="cluelessMatchQuote">
+                    "Totally buggin'! ¡Es un MATCH soñado! Armonía 100% de colorimetría para tu tono de piel."
+                  </div>
+                </div>
+
+                <!-- Stage View: Mix & Match (Split Mannequin) -->
+                <div class="clueless-stage-split" id="cluelessStageSplit">
+                  <!-- TOP CAROUSEL -->
+                  <div class="clueless-slot-carousel slot-top">
+                    <button type="button" class="clueless-arrow arrow-prev" onclick="browseCluelessPart('top', -1)" aria-label="Prenda superior anterior" title="Prenda superior anterior">
+                      ◀ PREV
+                    </button>
+                    
+                    <div class="clueless-part-viewport">
+                      <div class="slot-badge-label">PRENDA SUPERIOR</div>
+                      <img id="cluelessTopImg" src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80" alt="Prenda Superior" class="clueless-slot-img">
+                      <div class="clueless-part-tag" id="cluelessTopTag">
+                        <span class="part-title" id="cluelessTopName">Blazer Tartan Clueless Amarillo</span>
+                        <span class="part-price" id="cluelessTopPrice">$22.000</span>
+                      </div>
+                    </div>
+
+                    <button type="button" class="clueless-arrow arrow-next" onclick="browseCluelessPart('top', 1)" aria-label="Prenda superior siguiente" title="Prenda superior siguiente">
+                      NEXT ▶
+                    </button>
+                  </div>
+
+                  <!-- WAIST DIVIDER WITH RETRO GEM -->
+                  <div class="clueless-waistline">
+                    <span class="waist-line"></span>
+                    <span class="waist-clasp">✨ DREESLOOP • ATELIER ✨</span>
+                    <span class="waist-line"></span>
+                  </div>
+
+                  <!-- BOTTOM CAROUSEL -->
+                  <div class="clueless-slot-carousel slot-bottom">
+                    <button type="button" class="clueless-arrow arrow-prev" onclick="browseCluelessPart('bottom', -1)" aria-label="Prenda inferior anterior" title="Prenda inferior anterior">
+                      ◀ PREV
+                    </button>
+                    
+                    <div class="clueless-part-viewport">
+                      <div class="slot-badge-label">PRENDA INFERIOR</div>
+                      <img id="cluelessBottomImg" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=600&q=80" alt="Prenda Inferior" class="clueless-slot-img">
+                      <div class="clueless-part-tag" id="cluelessBottomTag">
+                        <span class="part-title" id="cluelessBottomName">Falda Plisada Tartan Cher 90s</span>
+                        <span class="part-price" id="cluelessBottomPrice">$17.500</span>
+                      </div>
+                    </div>
+
+                    <button type="button" class="clueless-arrow arrow-next" onclick="browseCluelessPart('bottom', 1)" aria-label="Prenda inferior siguiente" title="Prenda inferior siguiente">
+                      NEXT ▶
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Stage View: Gown Mode (Single Full Model) -->
+                <div class="clueless-stage-gown" id="cluelessStageGown" style="display: none;">
+                  <button type="button" class="clueless-arrow arrow-prev gown-arrow" onclick="browseCluelessPart('gown', -1)" aria-label="Vestido anterior">
+                    ◀ PREV
+                  </button>
+
+                  <div class="clueless-gown-viewport">
+                    <div class="slot-badge-label">VESTIDO DE GALA COMPLETO</div>
+                    <img id="cluelessGownImg" src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80" alt="Vestido de Gala DreesLoop" class="clueless-gown-img">
+                    <div class="clueless-part-tag" id="cluelessGownTag">
+                      <span class="part-title" id="cluelessGownName">Vestido Esmeralda Velvet</span>
+                      <span class="part-price" id="cluelessGownPrice">$34.500</span>
+                    </div>
+                  </div>
+
+                  <button type="button" class="clueless-arrow arrow-next gown-arrow" onclick="browseCluelessPart('gown', 1)" aria-label="Vestido siguiente">
+                    NEXT ▶
+                  </button>
+                </div>
+
+                <!-- Floating Makeup Bubble (Face & Eyes close-up according to skin tone) -->
+                <div class="clueless-face-bubble" id="cluelessFaceBubble" title="Detalle del estilo de maquillaje en tu tono de piel">
+                  <div class="bubble-avatar-wrap">
+                    <img id="cluelessMakeupFaceImg" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80" alt="Maquillaje en modelo" class="bubble-avatar-img">
+                    <span class="bubble-pulse-ring"></span>
+                  </div>
+                  <div class="bubble-avatar-meta">
+                    <span class="bubble-meta-title" id="cluelessMakeupBubbleName">💄 Smokey Eyes HD</span>
+                    <small class="bubble-meta-tone" id="cluelessMakeupBubbleTone">Piel Clara</small>
+                  </div>
+                </div>
+
+                <!-- Bottom Status Strip inside monitor -->
+                <div class="clueless-monitor-strip">
+                  <span id="cluelessActiveTonePill">🌸 Piel Clara</span>
+                  <span class="dot-sep">•</span>
+                  <span id="cluelessActivePiecesPill">👗 Look: Blazer & Falda Tartan</span>
+                  <span class="dot-sep">•</span>
+                  <span id="cluelessActiveMakeupPill">💄 Glam Smokey Eyes</span>
+                </div>
+              </div>
+
+              <!-- Retro Stylist Card / Advisor under screen -->
+              <div class="clueless-advisor-box">
+                <div class="advisor-head">
+                  <span class="advisor-icon">👑</span>
+                  <strong>CHER'S COLORIMETRY ADVICE (DREESLOOP ATELIER):</strong>
+                </div>
+                <p id="cluelessAdviceText" class="advisor-body">
+                  Para <strong>Piel Clara</strong>: El conjunto Tartan Cher en amarillo pastel con marfil es el clásico indiscutido de Clueless. El maquillaje Smokey Eyes aporta un toque rebelde y vanguardista para recepciones de gala.
+                </p>
+                <div class="clueless-palette-preview">
+                  <span class="pal-label">Pigmentos & Paleta Activa:</span>
+                  <div class="pal-dots" id="cluelessPaletteDots">
+                    <span class="pal-dot" style="background: #E8D36A;" title="Prenda Superior: Tartan"></span>
+                    <span class="pal-dot" style="background: #E8D36A;" title="Prenda Inferior: Tartan"></span>
+                    <span class="pal-dot" style="background: #F3D9C9;" title="Tez: Porcelana HD"></span>
+                    <span class="pal-dot" style="background: #2B2B2B;" title="Sombra: Carbón Ahumado"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Columna Derecha: Panel de Control & Selección -->
+          <div class="clueless-controls-col">
+            
+            <!-- STEP 1: TONO DE PIEL -->
+            <div class="clueless-ctrl-card">
+              <div class="ctrl-card-header">
+                <span class="ctrl-step-badge">1</span>
+                <div>
+                  <h4>Selecciona tu Tono de Piel</h4>
+                  <p>Adapta la modelo digital, bases y matices a tu fisionomía:</p>
+                </div>
+              </div>
+
+              <div class="clueless-skin-grid">
+                <button type="button" class="clueless-skin-btn active" data-tone="clara" onclick="selectSkinTone('clara', this)">
+                  <div class="skin-circle" style="background: #F7E0D4; border-color: #E8B4A2;"></div>
+                  <div class="skin-meta">
+                    <strong>Piel Clara</strong>
+                    <span>Frío / Porcelana</span>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-skin-btn" data-tone="triguena" onclick="selectSkinTone('triguena', this)">
+                  <div class="skin-circle" style="background: #D9A779; border-color: #C58B58;"></div>
+                  <div class="skin-meta">
+                    <strong>Piel Trigueña</strong>
+                    <span>Cálido / Dorado</span>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-skin-btn" data-tone="morena" onclick="selectSkinTone('morena', this)">
+                  <div class="skin-circle" style="background: #7E4B31; border-color: #5C321E;"></div>
+                  <div class="skin-meta">
+                    <strong>Piel Morena</strong>
+                    <span>Ébano / Canela</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 2: MAQUILLAJE PROFESIONAL (40% OFF PROMO) -->
+            <div class="clueless-ctrl-card">
+              <div class="ctrl-card-header">
+                <span class="ctrl-step-badge">2</span>
+                <div>
+                  <h4>Estilo de Maquillaje Profesional</h4>
+                  <p>Incluido en la Promo Total Look con <strong>40% OFF</strong>:</p>
+                </div>
+              </div>
+
+              <div class="clueless-makeup-grid">
+                <button type="button" class="clueless-mu-card active" data-id="m1" onclick="selectFittingMakeup('m1', this)">
+                  <img id="chipImgM1" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=120&q=80" alt="Glam Smokey">
+                  <div class="mu-meta">
+                    <strong>Glam Smokey Eyes</strong>
+                    <span>Noche & Gala • $25.000</span>
+                    <small class="mu-promo-tag">Con Promo: $15.000</small>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-mu-card" data-id="m2" onclick="selectFittingMakeup('m2', this)">
+                  <img id="chipImgM2" src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=120&q=80" alt="Glow Natural">
+                  <div class="mu-meta">
+                    <strong>Glow Natural Romántico</strong>
+                    <span>Piel de Seda • $25.000</span>
+                    <small class="mu-promo-tag">Con Promo: $15.000</small>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-mu-card" data-id="m3" onclick="selectFittingMakeup('m3', this)">
+                  <img id="chipImgM3" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=120&q=80" alt="Graduación Bronze">
+                  <div class="mu-meta">
+                    <strong>Graduación Bronze HD</strong>
+                    <span>Fotos 16hs • $32.000</span>
+                    <small class="mu-promo-tag">Con Promo: $19.200</small>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-mu-card" data-id="m4" onclick="selectFittingMakeup('m4', this)">
+                  <img id="chipImgM4" src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=120&q=80" alt="Vintage Hollywood">
+                  <div class="mu-meta">
+                    <strong>Vintage Hollywood Red</strong>
+                    <span>Clásico 50s • $32.000</span>
+                    <small class="mu-promo-tag">Con Promo: $19.200</small>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <!-- STEP 3: DRESS ME SHUFFLE BUTTON -->
+            <div class="clueless-shuffle-banner">
+              <button type="button" class="btn-clueless-shuffle" onclick="shuffleCluelessOutfit()">
+                <span class="shuffle-sparkles">✨🎲✨</span>
+                <strong>DRESS ME! (SHUFFLE ALEATORIO CLUELESS)</strong>
+                <small>Deja que el armario inteligente cree una combinación coordinada para ti</small>
+              </button>
+            </div>
+
+            <!-- STEP 4: TOTAL LOOK SUMMARY WITH 40% OFF DISCOUNT -->
+            <div class="clueless-summary-box">
+              <div class="summary-topline">
+                <span class="clueless-pill-promo">🎉 PROMO TOTAL LOOK APLICADA</span>
+                <span class="clueless-pill-discount">40% OFF en Maquillaje</span>
+              </div>
+
+              <div class="clueless-bill-rows">
+                <div class="bill-row">
+                  <span id="summaryOutfitName">Prenda(s): Blazer & Falda Tartan Clueless</span>
+                  <span id="summaryOutfitPrice">$39.500</span>
+                </div>
+                <div class="bill-row">
+                  <span id="summaryMakeupName">Maquillaje: Glam Smokey Eyes</span>
+                  <span id="summaryMakeupPrice">$25.000</span>
+                </div>
+                <div class="bill-row">
+                  <span id="summarySkinToneName">Tono de Piel: Piel Clara / Porcelana</span>
+                  <span style="color: #E5C378; font-size: 0.8rem;">✓ Asesoría Personalizada</span>
+                </div>
+                <div class="bill-row bill-discount">
+                  <span>🎁 Bonificación Promo Total Look (40% OFF Maquillaje)</span>
+                  <span id="summaryDiscountAmount">-$10.000</span>
+                </div>
+                <div class="bill-row bill-total">
+                  <span>TOTAL LOOK COMPLETO (4 días + Maquillaje):</span>
+                  <strong id="summaryTotalPrice">$54.500</strong>
+                </div>
+              </div>
+
+              <button type="button" class="btn btn-primary btn-block btn-lg clueless-book-btn" id="bookLookBtn" onclick="bookCurrentTotalLook()">
+                👑 Reservar Este Total Look (Cher's Pick)
+              </button>
+              <small class="clueless-book-hint">💡 Al presionar, las prendas, el estilo de maquillaje y tu tono de piel se cargarán automáticamente en la Ficha de Reserva.</small>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECCIÓN 2: SERVICIO DE MAQUILLAJE, ESTILOS VISUALES & PROMOCIONES
+       ========================================================================== -->
+  <section class="makeup-section" id="maquillaje">
+    <div class="container">
+      <div class="makeup-header">
+        <span class="makeup-badge-pill">💄 ESTILISMO INTEGRAL & MAQUILLAJE EN DREESLOOP</span>
+        <h2 class="makeup-title">Galería de Estilos de Maquillaje & <em>Promociones Especiales</em></h2>
+        <p class="makeup-desc">
+          En DreesLoop contamos con maquilladoras profesionales especializadas en eventos sociales, galas y graduaciones. Descubre nuestros estilos fotográficos y aprovecha las promociones exclusivas para salir con el vestido planchado y el maquillaje perfecto.
+        </p>
+      </div>
+
+      <!-- Promociones Especiales de Maquillaje -->
+      <div class="makeup-promos-container">
+        <div class="promos-title-wrap">
+          <span class="promo-fire-icon">🔥</span>
+          <h3>Promociones Activas en DreesLoop Iguazú</h3>
+        </div>
+
+        <div class="makeup-promos-grid">
+          <!-- Promo 1 -->
+          <div class="promo-card">
+            <span class="promo-pill-tag">👭 PROMO DUO</span>
+            <h4>Egresadas & Amigas Juntas</h4>
+            <div class="promo-discount-num">25% OFF</div>
+            <p>Vienen 2 amigas o egresadas a maquillarse en el mismo turno para la fiesta y la segunda sesión tiene 25% de descuento directo.</p>
+            <span class="promo-validity">Válido reservando con anticipación</span>
+          </div>
+
+          <!-- Promo 2 -->
+          <div class="promo-card highlight-promo">
+            <span class="promo-pill-tag">👑 PROMO TOTAL LOOK</span>
+            <h4>Alquiler Outfit + Maquillaje</h4>
+            <div class="promo-discount-num">40% OFF</div>
+            <p>Alquilando cualquier vestido o traje de nuestra colección, te bonificamos un 40% OFF en tu sesión de maquillaje profesional.</p>
+            <span class="promo-validity">¡La promo más elegida de Puerto Iguazú!</span>
+          </div>
+
+          <!-- Promo 3 -->
+          <div class="promo-card">
+            <span class="promo-pill-tag">🎁 BENEFICIO DE REGALO</span>
+            <h4>Pestañas & Piel Blindada 16hs</h4>
+            <div class="promo-discount-num">5% OFF</div>
+            <p>Colocación de pestañas pelo por pelo y fijador sellador ultra resistente a la humedad misionera con 5% OFF en todos los turnos.</p>
+            <span class="promo-validity">Incluido en todos los estilos</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Galería de Estilos de Maquillaje con Fotos Reales -->
+      <h3 class="gallery-section-heading">Nuestros 4 Estilos de Maquillaje de Autor</h3>
+      <div class="makeup-styles-gallery">
+        <!-- Estilo 1 -->
+        <div class="makeup-style-card">
+          <div class="style-img-wrap">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=80" alt="Maquillaje Glam Noche y Gala" loading="lazy">
+            <span class="style-category-tag">GALA & NOCHE</span>
+          </div>
+          <div class="style-card-body">
+            <h4>Glam Smokey Eyes & Velvet Plum</h4>
+            <p>Mirada profunda con esfumado degradé en tonos tierra y amatista, delineado difuminado y labios aterciopelados nude o ciruela.</p>
+            <ul class="style-bullets">
+              <li>Piel blindada HD mate aterciopelada</li>
+              <li>Pestañas postizas efecto volumen ruso</li>
+              <li>Labial indeleble de alta permanencia</li>
+            </ul>
+            <div class="style-price-row">
+              <span class="price-val">$25.000</span>
+              <span class="price-detail">Sesión completa 60 min</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Estilo 2 -->
+        <div class="makeup-style-card">
+          <div class="style-img-wrap">
+            <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=700&q=80" alt="Maquillaje Glow Natural y Romántico" loading="lazy">
+            <span class="style-category-tag">NATURAL & ROMÁNTICO</span>
+          </div>
+          <div class="style-card-body">
+            <h4>Glow Natural & Piel de Seda</h4>
+            <p>Piel ultra luminosa con técnica no-makeup makeup. Ideal para fiestas de día, cócteles en hoteles de la selva y recepciones al atardecer.</p>
+            <ul class="style-bullets">
+              <li>Hidratación profunda con ácido hialurónico</li>
+              <li>Pestañas individuales efecto lifting</li>
+              <li>Iluminador líquido satinado de lujo</li>
+            </ul>
+            <div class="style-price-row">
+              <span class="price-val">$25.000</span>
+              <span class="price-detail">Sesión completa 50 min</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Estilo 3 -->
+        <div class="makeup-style-card">
+          <div class="style-img-wrap">
+            <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=700&q=80" alt="Maquillaje de Graduación y Egresadas" loading="lazy">
+            <span class="style-category-tag">ESPECIAL GRADUACIONES</span>
+          </div>
+          <div class="style-card-body">
+            <h4>Graduación Bronze & Cat-Eye HD</h4>
+            <p>Diseñado con pigmentos reflectivos calibrados para que las fotos con flash en la entrega de diplomas y la posterior noche de fiesta salgan perfectas.</p>
+            <ul class="style-bullets">
+              <li>Resistencia extrema al sudor, calor y lágrimas</li>
+              <li>Perfilado de cejas y mirada rasgada felina</li>
+              <li>Pestañas 3D de alta definición</li>
+            </ul>
+            <div class="style-price-row">
+              <span class="price-val">$32.000</span>
+              <span class="price-detail">Sesión exclusiva 75 min</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Estilo 4 -->
+        <div class="makeup-style-card">
+          <div class="style-img-wrap">
+            <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80" alt="Maquillaje Vintage Hollywood" loading="lazy">
+            <span class="style-category-tag">VINTAGE & RETRO</span>
+          </div>
+          <div class="style-card-body">
+            <h4>Vintage Hollywood & Labios Rojos</h4>
+            <p>Inspiración de alta costura de los años 50 y 60. Delineado de precisión cat-eye, sombras vainilla satinadas y labios rojos carmín de impacto.</p>
+            <ul class="style-bullets">
+              <li>Labios esculpidos en rojo rubí indeleble</li>
+              <li>Delineado líquido waterproof a prueba de todo</li>
+              <li>Acabado de porcelana mate clásica</li>
+            </ul>
+            <div class="style-price-row">
+              <span class="price-val">$32.000</span>
+              <span class="price-detail">Sesión completa 65 min</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner de Horarios y Turnos DreesLoop -->
+      <div class="makeup-cta-banner">
+        <div class="makeup-cta-text">
+          <h4>🕒 Horarios de Atención en DreesLoop:</h4>
+          <p><strong>Lunes a Sábado:</strong> 07:00 a 12:00 hs y de 14:00 a 21:30 hs • <strong>Domingos:</strong> Cerrado.<br>
+          📍 Av. Victoria Aguirre 480, Piso 1, Puerto Iguazú. ¡Asegura tu turno de prueba y maquillaje con anticipación!</p>
+        </div>
+        <div class="makeup-cta-buttons">
+          <a href="https://wa.me/5493757448899?text=Hola%20DreesLoop!%20Quisiera%20consultar%20por%20turnos%20disponibles%20de%20Maquillaje%20y%20Alquiler%20en%20Puerto%20Iguazú" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: var(--color-vintage-gold); color: #170A1C; font-weight: 700;">
+            💄 Turno por WhatsApp
+          </a>
+          <a href="#probador-virtual" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.4); color: #FFFFFF;">
+            Probar Look Virtual 🪞
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Club DreesLoop: Loyalty Program for Frequent Clients -->
+  <section class="loyalty-section" id="fidelidad">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">PROGRAMA DE FIDELIDAD EXCLUSIVO</span>
+        <h2 class="section-title">Club DreesLoop: Para Nuestras Clientas Fieles</h2>
+        <p class="section-desc">Premiamos a quienes eligen la moda circular para cada una de sus celebraciones en Puerto Iguazú y Misiones.</p>
+      </div>
+
+      <div class="loyalty-passport-card">
+        <div class="passport-header">
+          <h3>Pasaporte de Beneficios Recurrentes</h3>
+          <p>Cada vez que alquilas una prenda en DreesLoop sumas un sello en tu pasaporte virtual de clienta. ¡Cuantos más eventos disfrutes, más beneficios acumulas!</p>
+        </div>
+
+        <div class="loyalty-tiers-grid">
+          <div class="loyalty-tier">
+            <span class="tier-badge">NIVEL 1</span>
+            <h3>Loop Lover</h3>
+            <div class="tier-rentals">1 a 2 Alquileres realizados</div>
+            <ul class="tier-perks">
+              <li><span>✓</span> <strong>10% OFF</strong> en tu segundo alquiler.</li>
+              <li><span>✓</span> Asesoramiento de medidas y estilismo sin costo.</li>
+              <li><span>✓</span> Acceso anticipado a piezas vintage.</li>
+            </ul>
+          </div>
+
+          <div class="loyalty-tier featured">
+            <span class="tier-badge" style="background: var(--color-vintage-espresso);">NIVEL 2 • MÁS ELEGIDO</span>
+            <h3>Loop VIP</h3>
+            <div class="tier-rentals">3 a 4 Alquileres realizados</div>
+            <ul class="tier-perks">
+              <li><span>★</span> <strong>¡El 4to Alquiler al 50% OFF!</strong></li>
+              <li><span>★</span> Depósito de garantía con 50% de descuento o bonificado por buen historial.</li>
+              <li><span>★</span> Accesorio vintage gratis en cada alquiler.</li>
+            </ul>
+          </div>
+
+          <div class="loyalty-tier">
+            <span class="tier-badge" style="background: var(--color-vintage-gold);">NIVEL 3</span>
+            <h3>Loop Icon</h3>
+            <div class="tier-rentals">5 o más Alquileres</div>
+            <ul class="tier-perks">
+              <li><span>👑</span> <strong>Alquiler gratis</strong> en el mes de tu cumpleaños.</li>
+              <li><span>👑</span> <strong>Cero depósito de garantía</strong> (cliente con confianza 100% verificada).</li>
+              <li><span>👑</span> Sesión de prueba privada a puertas cerradas con café y brindis en DreesLoop Iguazú.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Interactive Stamp Tracker -->
+        <div class="stamps-tracker-box">
+          <div>
+            <strong>Simula tus Sellos del Club:</strong>
+            <p style="font-size: 0.85rem; color: var(--color-vintage-muted); margin: 0;">Haz clic en los sellos para ver cómo se desbloquea tu 4to alquiler bonificado.</p>
+          </div>
+          <div class="stamps-row" id="stampsRow">
+            <button class="stamp-slot stamped" onclick="toggleStamp(0)" title="Alquiler 1">#1 ✓</button>
+            <button class="stamp-slot stamped" onclick="toggleStamp(1)" title="Alquiler 2">#2 ✓</button>
+            <button class="stamp-slot" onclick="toggleStamp(2)" title="Alquiler 3">#3</button>
+            <button class="stamp-slot final-reward" onclick="toggleStamp(3)" title="Alquiler 4">🎁 50% OFF</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Complete Booking & Registration Section with Full Data & Guarantee Clause -->
+  <section class="booking-registration-section" id="registro-reserva">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">REGISTRO OFICIAL DE RESERVA</span>
+        <h2 class="section-title">Reserva tu Outfit en Puerto Iguazú</h2>
+        <p class="section-desc">Completa tus datos personales y de medidas para registrar tu reserva y asegurar la prenda con depósito de seguridad reembolsable.</p>
+      </div>
+
+      <div class="booking-wrapper">
+        <!-- Formulario con todos los campos -->
+        <div class="booking-form-card">
+          <h3>Ficha de Datos de la Clienta</h3>
+          <p>Ingresa tus datos completos para emitir tu comprobante de pre-reserva con garantías de entrega y calce.</p>
+
+          <form id="reservationBookingForm">
+            <!-- Datos Personales -->
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="clientName">Nombre y Apellido <span>*</span></label>
+                <input type="text" id="clientName" class="form-control" placeholder="Ej: Sofía Martínez" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientDni">DNI / Identificación <span>*</span></label>
+                <input type="text" id="clientDni" class="form-control" placeholder="Ej: 42.158.960" required>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="clientPhone">Celular / WhatsApp <span>*</span></label>
+                <input type="tel" id="clientPhone" class="form-control" placeholder="Ej: +54 9 3757 55-1234" required>
+              </div>
+
+              <div class="form-group">
+                <label for="clientEmail">Correo Electrónico <span>*</span></label>
+                <input type="email" id="clientEmail" class="form-control" placeholder="Ej: sofia@email.com" required>
+              </div>
+            </div>
+
+            <!-- Ubicación en Puerto Iguazú / Misiones -->
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="clientCity">Ciudad / Localidad <span>*</span></label>
+                <select id="clientCity" class="form-control" required>
+                  <option value="Puerto Iguazú (Centro / Zona Residencial)" selected>Puerto Iguazú (Centro / Barrios)</option>
+                  <option value="Puerto Iguazú (Zona Hotelera / 600 Hectáreas)">Puerto Iguazú (600 Has. / Hotelera)</option>
+                  <option value="Wanda / Libertad / Esperanza">Wanda / Puerto Libertad / Esperanza</option>
+                  <option value="Eldorado / Montecarlo">Eldorado / Montecarlo</option>
+                  <option value="Posadas / Otra localidad de Misiones">Posadas / Otra localidad de Misiones</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="clientAddress">Dirección o Barrio <span>*</span></label>
+                <input type="text" id="clientAddress" class="form-control" placeholder="Ej: Av. Brasil 230 / Barrio Almirante Brown" required>
+              </div>
+            </div>
+
+            <!-- Selección de Prenda & Evento -->
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="selectedOutfit">Prenda que deseas alquilar <span>*</span></label>
+                <select id="selectedOutfit" class="form-control" required>
+                  <option value="" disabled selected>Selecciona un look del catálogo...</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="eventDate">Fecha del Evento <span>*</span></label>
+                <input type="date" id="eventDate" class="form-control" min="2026-11-06" required>
+              </div>
+            </div>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="rentalDaysPlan">Período de Alquiler <span>*</span></label>
+                <select id="rentalDaysPlan" class="form-control" required>
+                  <option value="4" selected>4 Días (Estándar fin de semana)</option>
+                  <option value="8">8 Días (Semana completa / Viaje fuera de Iguazú)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="deliveryMethod">Forma de Retiro / Entrega <span>*</span></label>
+                <select id="deliveryMethod" class="form-control" required>
+                  <option value="Retiro en DreesLoop (Av. Victoria Aguirre 480)" selected>Retiro presencial en DreesLoop (Puerto Iguazú)</option>
+                  <option value="Envío a domicilio en Puerto Iguazú">Envío por cadetería a domicilio en Iguazú</option>
+                  <option value="Envío exprés encomienda (Interior de Misiones)">Envío exprés por encomienda (Interior de Misiones)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Medidas de Referencia -->
+            <div class="form-group">
+              <label for="clientMeasurements">Medidas aproximadas (Garantía de calce)</label>
+              <input type="text" id="clientMeasurements" class="form-control" placeholder="Ej: Busto 90cm, Cintura 72cm, Altura con tacos 1.68m">
+              <small style="color: var(--color-vintage-muted); font-size: 0.78rem;">Contamos con garantía de cambio de talle inmediato si lo necesitas.</small>
+            </div>
+
+            <!-- Servicio de Maquillaje Opcional con Precios Actualizados y Promociones -->
+            <div class="form-group" style="background: var(--color-vintage-olive-soft); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--color-vintage-border);">
+              <label for="clientMakeup" style="color: var(--color-vintage-terracotta); font-weight: 700; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+                💄 ¿Deseas sumar Servicio de Maquillaje Profesional?
+              </label>
+              <select id="clientMakeup" class="form-control">
+                <option value="Sin servicio de maquillaje" selected>No por ahora (solo alquiler del outfit)</option>
+                <option value="Maquillaje Social & Fiesta ($25.000)">💄 Maquillaje Social & Fiesta ($25.000)</option>
+                <option value="Maquillaje de Graduación & Gala ($32.000)">🎓 Maquillaje de Graduación & Gala Alta Duración ($32.000)</option>
+                <option value="Pack Total Look con Promo Alquiler (40% OFF en Maquillaje)">⭐ Pack Total Look con Promo Alquiler (40% OFF en Maquillaje)</option>
+                <option value="Promo Dúo Egresadas / Amigas (25% OFF en 2da sesión)">👭 Promo Dúo Egresadas / Amigas (25% OFF en 2da sesión)</option>
+              </select>
+              <small style="color: var(--color-vintage-muted); font-size: 0.78rem;">Coordinamos tu sesión en DreesLoop el mismo día de tu evento (Lun a Sáb: 7-12 hs y 14-21:30 hs).</small>
+            </div>
+
+            <!-- Método de Seña -->
+            <div class="form-group">
+              <label for="paymentMethod">Preferencia para abonar la seña (50%) <span>*</span></label>
+              <select id="paymentMethod" class="form-control" required>
+                <option value="Transferencia Bancaria / Alias">Transferencia Bancaria / Mercado Pago</option>
+                <option value="Efectivo en DreesLoop Puerto Iguazú">Efectivo en DreesLoop (Puerto Iguazú)</option>
+                <option value="Tarjeta de Débito / Crédito">Tarjeta de Débito / Crédito</option>
+              </select>
+            </div>
+
+            <!-- Cláusula Obligatoria de Depósito de Garantía de Devolución & Cuidado -->
+            <div class="form-check">
+              <input type="checkbox" id="termsCheck" required>
+              <label for="termsCheck">
+                Acepto abonar el <strong>Depósito de Garantía Retornable</strong> junto con el alquiler, entendiendo que <strong>se me reembolsará al 100% en el acto al devolver la prenda en término y buen estado</strong>, y que en caso de no devolución, manchas graves o roturas se retendrá el depósito o se reclamará el valor total de reposición.
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn-terracotta btn-block" style="font-size: 1.05rem; padding: 14px;">
+              ✨ Enviar Ficha de Reserva con Garantías por WhatsApp
+            </button>
+          </form>
+        </div>
+
+        <!-- Barra lateral con datos de DreesLoop en Puerto Iguazú -->
+        <div class="booking-info-sidebar">
+          <div class="iguazu-showroom-box">
+            <h3>DreesLoop Puerto Iguazú</h3>
+            
+            <div class="showroom-detail-item">
+              <span class="icon">📍</span>
+              <div>
+                <h4>Ubicación Céntrica</h4>
+                <p>Av. Victoria Aguirre 480, Piso 1, Puerto Iguazú, Misiones (a pasos de la zona comercial y gastronómica).</p>
+              </div>
+            </div>
+
+            <div class="showroom-detail-item">
+              <span class="icon">🕒</span>
+              <div>
+                <h4>Horarios de Atención</h4>
+                <p><strong>Lunes a Sábado:</strong> 07:00 a 12:00 hs y de 14:00 a 21:30 hs.<br><strong style="color: var(--color-vintage-terracotta);">Domingos:</strong> Cerrado.<br><em>Atención personalizada, pruebas de outfits y maquillaje.</em></p>
+              </div>
+            </div>
+
+            <div class="showroom-detail-item">
+              <span class="icon">🔒</span>
+              <div>
+                <h4>Depósito 100% Reembolsable</h4>
+                <p>Al regresar la prenda en fecha y en buen estado, te reintegramos tu depósito de seguridad en el acto sin esperas.</p>
+              </div>
+            </div>
+
+            <div class="showroom-detail-item">
+              <span class="icon">📞</span>
+              <div>
+                <h4>Línea Directa DreesLoop</h4>
+                <p>WhatsApp: +54 9 3757 44-8899<br>Email: contacto@dreesloop.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="delivery-zone-box">
+            <h4>🚚 Cobertura de Envíos en Misiones</h4>
+            <ul>
+              <li>✓ <strong>Puerto Iguazú urbano:</strong> Envíos en el día por cadetería.</li>
+              <li>✓ <strong>Wanda y Libertad:</strong> Envíos en 24 hs.</li>
+              <li>✓ <strong>Eldorado y Posadas:</strong> Envíos por transporte puerta a puerta.</li>
+              <li>✓ <strong>Pruebas en DreesLoop:</strong> ¡Sin cargo con tu pre-reserva!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-it-works-section" id="como-funciona">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">FÁCIL, RÁPIDO Y TRANSPARENTE</span>
+        <h2 class="section-title">El Loop del Alquiler en 4 Pasos</h2>
+        <p class="section-desc">Olvídate del estrés de qué ponerte y de gastar una fortuna en prendas que usarás una sola vez en Puerto Iguazú.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <div class="step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h7"/></svg>
+          </div>
+          <h3>1. Elige y Registra</h3>
+          <p>Explora la colección de vestidos o trajes, selecciona tu talle y llena la ficha con la fecha de tu fiesta o recepción.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <div class="step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+          </div>
+          <h3>2. Retira o Recibe</h3>
+          <p>Pasa por DreesLoop en Av. Victoria Aguirre para una prueba o recíbelo con tu depósito de garantía registrado.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <div class="step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <h3>3. Brilla en tu evento</h3>
+          <p>Luce un look de alta gama con estilo vintage, cuidando la prenda para asegurar la devolución íntegra de tu depósito.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">04</div>
+          <div class="step-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+          </div>
+          <h3>4. Devuelve y Cobra tu Depósito</h3>
+          <p>Devuélvelo sin lavar en la funda retornable y <strong>recibe tu depósito de garantía en el acto</strong>. ¡El lavado estándar va por nuestra cuenta!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Client Testimonials -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">CLIENTAS REALES</span>
+        <h2 class="section-title">Experiencias en Puerto Iguazú</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Tenía el egreso de mi hermana y un casamiento en el Hotel Cataratas. El vestido esmeralda es una joya. Pagué el depósito de garantía y el lunes al devolverlo me hicieron la transferencia del reintegro al segundo. Súper transparentes y confiables."</p>
+          <div class="review-author">
+            <div class="author-avatar">MB</div>
+            <div>
+              <strong>Mariana Benítez</strong>
+              <span>Puerto Iguazú</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"El traje sastrero Milano Ivory me quedó pintado. Fui la más elogiada de la colación. Lo mejor es que la garantía de tintorería y vapor te asegura una prenda impecable y con aroma delicioso. Lo entregué en la bolsa y listo."</p>
+          <div class="review-author">
+            <div class="author-avatar">JG</div>
+            <div>
+              <strong>Julieta Gómez</strong>
+              <span>Puerto Iguazú</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Ya voy por mi tercer alquiler y soy parte del Club Fieles. Para fin de año ya tengo mi 4to outfit con 50% de descuento. ¡Una idea brillante que le hacía mucha falta a Puerto Iguazú!"</p>
+          <div class="review-author">
+            <div class="author-avatar">CA</div>
+            <div>
+              <strong>Carla Albornoz</strong>
+              <span>Wanda, Misiones</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container faq-container">
+      <div class="section-header text-center">
+        <span class="section-subtitle">RESOLVEMOS TUS DUDAS</span>
+        <h2 class="section-title">Preguntas Frecuentes sobre Cuidados y Depósito</h2>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Por qué se cobra un depósito de garantía y qué pasa si no devuelvo la prenda?</span>
+            <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>El depósito de garantía es una caución de seguridad temporal para proteger nuestras prendas de autor y alta costura. <strong>Si devuelves la prenda en buen estado en fecha pactada, se te reintegra el 100% de ese dinero en el acto</strong>. En caso de que la prenda <strong>no sea devuelta, sufra robo o extravío</strong>, el depósito queda retenido y se procede al reclamo del valor total de reposición de la prenda estipulado en la ficha de alquiler.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Qué pasa si la prenda sufre una mancha grave o rotura durante el evento?</span>
+            <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Las clientas son responsables del cuidado del outfit. No cubrimos manchas severas: manchas difíciles de vino tinto, tinturas, cera o quemaduras que requieran tratamientos especiales de desmanche textil o arreglos de sastrería serán descontadas proporcionalmente del depósito de garantía. Si el daño es irreparable o arruina la prenda, se retiene el depósito total y se cobra el valor de reposición.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Dónde queda DreesLoop en Puerto Iguazú y cuáles son los horarios de atención?</span>
+            <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>DreesLoop está ubicado en <strong>Av. Victoria Aguirre 480 (Piso 1), en pleno centro de Puerto Iguazú</strong>. Nuestro horario de atención es de <strong>Lunes a Sábado de 07:00 a 12:00 hs y de 14:00 a 21:30 hs (Domingos cerrado)</strong>. Puedes venir a probarte hasta 3 opciones previas. Si reservas con envío a domicilio y notas que el talle no es exacto, te gestionamos el cambio inmediato por otra talla o modelo sin costo adicional.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Cómo se garantiza la desinfección e higiene de las ropas?</span>
+            <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Trabajamos con tintorería ecológica especializada y un proceso de <strong>vaporizado a más de 100°C</strong> que elimina bacterias y alérgenos sin dañar las fibras textiles de alta costura. Las prendas se entregan con precinto de seguridad sellado.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>¿Cómo funciona el servicio de maquillaje profesional junto al alquiler?</span>
+            <svg class="faq-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer">
+            <p>¡Es súper cómodo y pensado para ahorrarte tiempo! En DreesLoop coordinamos tu turno de maquillaje para el mismo día del evento dentro de nuestros horarios (7:00 a 12:00 y 14:00 a 21:30 hs). Podés venir, maquillarte con técnicas de piel blindada de larga duración y ponerte tu vestido o traje planchado y perfumado para salir directo a tu fiesta o colación sin preocuparte por nada más.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer con Logo Vintage y Enlace al Panel de Costos -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <div class="footer-logo-wrap" style="margin-bottom: 20px;">
+          <a href="#" class="brand-logo-vintage" title="DreesLoop • Tu próximo look, por un momento inolvidable">
+            <img src="logo.jpg" alt="DreesLoop - Tu próximo look, por un momento inolvidable" class="footer-logo-img">
+          </a>
+        </div>
+
+        <p>Tu atelier integral en Puerto Iguazú: Alquiler de vestidos de fiesta, gala, colaciones, trajes y <strong>servicio de maquillaje profesional</strong> con estética vintage de autor y garantías completas.</p>
+        <p style="font-size: 0.82rem; color: var(--color-vintage-gold);">📍 Av. Victoria Aguirre 480, Puerto Iguazú, Misiones</p>
+        <div class="social-links">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="TikTok">TikTok</a>
+          <a href="#" aria-label="WhatsApp">WhatsApp</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Colecciones</h4>
+        <ul>
+          <li><a href="#graduaciones">Vestidos & Trajes de Grado</a></li>
+          <li><a href="#catalogo">Gala & Noche</a></li>
+          <li><a href="#catalogo">Trajes Sastreros & Sets</a></li>
+          <li><a href="#catalogo">Piezas Vintage & Retro</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Garantías & Administración</h4>
+        <ul>
+          <li><a href="#garantias">Política de Depósito Retornable</a></li>
+          <li><a href="#registro-reserva">Ficha Oficial de Reserva</a></li>
+          <li><a href="#fidelidad">Club de Clientes Fieles</a></li>
+          <li><a href="javascript:void(0)" onclick="openAdminAuth()" style="color: var(--color-vintage-gold); font-weight: 600;">🔒 Gestión de Costos & Alquileres</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Newsletter Vintage</h4>
+        <p>Entérate antes que nadie cuando ingresen nuevos vestidos y trajes vintage a DreesLoop Iguazú.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('¡Bienvenida al Newsletter de DreesLoop Puerto Iguazú!'); this.reset();">
+          <input type="email" placeholder="Tu correo electrónico" required>
+          <button type="submit" class="btn btn-terracotta btn-sm">Unirme</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 DreesLoop — Atelier Vintage • Puerto Iguazú, Misiones. Alquiler de Outfits con Depósito de Garantía 100% Reembolsable.</p>
+    </div>
+  </footer>
+
+  <!-- Slide-out Cart / Rental Bag Drawer con Desglose de Depósito -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer-header">
+      <div class="cart-title-row">
+        <h3>Tu Bolsa de Alquiler</h3>
+        <span class="cart-items-count" id="cartHeaderCount">0 prendas</span>
+      </div>
+      <button class="cart-close-btn" id="cartCloseBtn" aria-label="Cerrar bolsa">&times;</button>
+    </div>
+
+    <!-- Rental duration selector -->
+    <div class="rental-days-selector">
+      <label for="rentalDuration">Duración en Puerto Iguazú:</label>
+      <select id="rentalDuration">
+        <option value="4" selected>4 Días (Estándar fin de semana)</option>
+        <option value="8">8 Días (Opción extendida +40%)</option>
+      </select>
+    </div>
+
+    <div class="cart-drawer-body" id="cartItemsList">
+      <!-- Dynamic cart items will appear here -->
+    </div>
+
+    <div class="cart-drawer-footer">
+      <div class="summary-line">
+        <span>Subtotal Alquiler</span>
+        <span id="cartRentSubtotal">$0</span>
+      </div>
+      <div class="summary-line">
+        <span>Tintorería & Vapor 100°C</span>
+        <span class="free-tag">¡GRATIS!</span>
+      </div>
+
+      <!-- LÍNEA DE DEPÓSITO DE GARANTÍA RETORNABLE -->
+      <div class="summary-line deposit-line">
+        <div>
+          <span>Depósito de Garantía (Reembolsable)</span>
+          <small>Te será devuelto 100% en el acto al entregar la prenda en buen estado</small>
+        </div>
+        <span id="cartDepositTotal">$0</span>
+      </div>
+
+      <div class="summary-line total-line">
+        <span>Total Inicial a Abonar</span>
+        <span class="cart-total-price" id="cartTotalPrice">$0</span>
+      </div>
+
+      <div class="cart-actions-drawer">
+        <a href="#registro-reserva" class="btn btn-terracotta btn-block" onclick="closeCart()">
+          📝 Completar Registro con todos los datos
+        </a>
+        <button class="btn btn-whatsapp btn-block" id="checkoutWhatsappBtn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.97.529 1.834.78 2.796.78h.005c3.182 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.767-5.775-5.767zm7.647 5.765c-.002 4.238-3.449 7.685-7.683 7.685-1.294 0-2.518-.328-3.593-.9l-3.957 1.038 1.057-3.859c-.66-1.144-1.01-2.454-1.01-3.964.003-4.238 3.45-7.685 7.686-7.685 4.234 0 7.681 3.447 7.684 7.685z"/></svg>
+          Consultar Reserva por WhatsApp
+        </button>
+      </div>
+      <p class="cart-note">DreesLoop • Av. Victoria Aguirre 480, Puerto Iguazú</p>
+    </div>
+  </aside>
+
+  <!-- Quick View Product Modal -->
+  <div class="modal-overlay" id="productModal">
+    <div class="modal-dialog">
+      <button class="modal-close" id="modalCloseBtn">&times;</button>
+      <div class="modal-content" id="modalContent">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastNotification">
+    <span class="toast-icon">✨</span>
+    <span class="toast-text" id="toastMessage">Prenda agregada a tu bolsa</span>
+  </div>
+
+  <!-- WhatsApp Floating Quick Button -->
+  <a href="https://wa.me/5493757448899?text=Hola%20DreesLoop%20Iguazú!%20Quisiera%20consultar%20por%20el%20alquiler%20de%20un%20outfit" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Consultar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.97.529 1.834.78 2.796.78h.005c3.182 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.767-5.775-5.767zm7.647 5.765c-.002 4.238-3.449 7.685-7.683 7.685-1.294 0-2.518-.328-3.593-.9l-3.957 1.038 1.057-3.859c-.66-1.144-1.01-2.454-1.01-3.964.003-4.238 3.45-7.685 7.686-7.685 4.234 0 7.681 3.447 7.684 7.685z"/></svg>
+    <span class="whatsapp-float-tooltip">DreesLoop Iguazú • WhatsApp</span>
+  </a>
+
+  <!-- ==========================================================================
+       MODAL 1: AUTENTICACIÓN CON CONTRASEÑA PARA PANEL DE COSTOS
+       ========================================================================== -->
+  <div class="admin-auth-overlay" id="adminAuthOverlay">
+    <div class="admin-auth-card">
+      <button class="modal-close" onclick="closeAdminAuth()">&times;</button>
+      <div class="lock-icon">🔒</div>
+      <h3>Acceso a Gestión de Costos</h3>
+      <p>Área privada para el control financiero, costos fijos, variables y rentabilidad de DreesLoop Puerto Iguazú.</p>
+      
+      <form id="adminLoginForm" onsubmit="handleAdminLogin(event)">
+        <div class="auth-input-group">
+          <label for="adminPasswordInput">Contraseña de Administradora:</label>
+          <input type="password" id="adminPasswordInput" placeholder="Introduce tu contraseña..." required autofocus>
+        </div>
+        <button type="submit" class="btn btn-terracotta btn-block">Ingresar al Panel de Costos</button>
+      </form>
+
+      <div class="auth-hint">
+        🔑 <em>Contraseña inicial:</em> <strong>dreesloop2026</strong> (puedes cambiarla adentro)
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       MODAL 2: PANEL PRIVADO DE COSTOS, FIJOS, VARIABLES Y CONTADOR DE RENTABILIDAD
+       ========================================================================== -->
+  <div class="admin-panel-overlay" id="adminPanelOverlay">
+    <div class="admin-dashboard-container">
+      
+      <!-- Header Ejecutivo del Panel -->
+      <div class="admin-dashboard-header">
+        <div class="admin-header-title">
+          <div class="admin-title-badge">
+            <span class="admin-badge-icon">🏛️</span>
+            <span>DreesLoop Financial Suite • Puerto Iguazú</span>
+          </div>
+          <h2>Panel de Control Financiero & Rentabilidad</h2>
+          <p>Calculadora dinámica de costos fijos, variables, punto de equilibrio y simulador de facturación.</p>
+        </div>
+        <div class="admin-header-actions">
+          <button class="btn btn-sm btn-outline-admin" onclick="promptChangePassword()" title="Modificar clave de acceso">
+            🔑 Clave
+          </button>
+          <button class="btn btn-sm btn-secondary" onclick="logoutAdmin()">Cerrar Sesión</button>
+          <button class="btn btn-sm btn-primary" onclick="closeAdminPanel()">✕ Salir del Panel</button>
+        </div>
+      </div>
+
+      <!-- Selector de Modo de Visualización para los Cuadros Superiores -->
+      <div class="dashboard-mode-selector">
+        <div class="mode-info">
+          <span class="mode-pulse-indicator"></span>
+          <span>Visualizando en los 4 cuadros de arriba:</span>
+          <strong id="activeModeText">🔮 Proyección Dinámica (Simulador Activo)</strong>
+        </div>
+        <div class="mode-pills">
+          <button type="button" class="mode-pill active" id="modeSimBtn" onclick="setAdminDashboardMode('simulacion')">
+            <span class="mode-pill-icon">🔮</span> Modo Simulación en Vivo
+          </button>
+          <button type="button" class="mode-pill" id="modeRealBtn" onclick="setAdminDashboardMode('real')">
+            <span class="mode-pill-icon">📋</span> Modo Alquileres Reales (<span id="modeRealCountBadge">15 prendas</span>)
+          </button>
+        </div>
+      </div>
+
+      <!-- Tarjetas KPI Principales con Íconos y Etiquetas Dinámicas -->
+      <div class="admin-kpis-grid">
+        
+        <!-- CUADRO 1: PRENDAS ALQUILADAS (EDITABLE) -->
+        <div class="kpi-card kpi-editable-card" id="cardRentals">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Prendas Alquiladas</span>
+            <span class="kpi-icon-pill icon-purple">👗</span>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-edit-wrap">
+              <button type="button" class="kpi-step-btn" onclick="adjustTopRentals(-1)" title="Restar 1 prenda">−</button>
+              <input type="number" id="topRentalsInput" class="kpi-number-input" value="15" min="1" max="500" oninput="syncFromTopRentals(this.value)" title="Escribe o modifica la cantidad de prendas aquí">
+              <button type="button" class="kpi-step-btn" onclick="adjustTopRentals(1)" title="Sumar 1 prenda">+</button>
+            </div>
+            <span class="kpi-tag" id="kpiRentalsTag">Simulación</span>
+          </div>
+          <div class="kpi-sub" id="kpiRentalsSub">✏️ Modificable directamente arriba</div>
+        </div>
+
+        <!-- CUADRO 2: FACTURACIÓN BRUTA (EDITABLE) -->
+        <div class="kpi-card kpi-editable-card" id="cardRevenue">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Facturación Bruta</span>
+            <span class="kpi-icon-pill icon-gold">💰</span>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-value" id="kpiGrossRevenue">$502.500</div>
+            <span class="kpi-tag tag-gold" id="kpiRevenueTag">Proyectado</span>
+          </div>
+          <div class="kpi-sub-edit-row">
+            <span>Precio prom: $</span>
+            <input type="number" id="topAvgPriceInput" class="kpi-sub-input" value="33500" step="500" oninput="syncFromTopPrice(this.value)" title="Escribe o modifica el precio promedio aquí">
+          </div>
+        </div>
+
+        <!-- CUADRO 3: COSTOS TOTALES (FIJOS + VARIABLES) -->
+        <div class="kpi-card" id="cardCosts">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Costos Totales (Fijos + Var)</span>
+            <span class="kpi-icon-pill icon-wine">📉</span>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-value" id="kpiTotalCosts" style="color: #9C2A2A;">$467.500</div>
+            <span class="kpi-tag tag-wine" id="kpiCostsTag">Fijos + Var</span>
+          </div>
+          <div class="kpi-sub" id="kpiCostsBreakdown">Fijos: $325.000 | Variables: $142.500</div>
+        </div>
+
+        <!-- CUADRO 4: GANANCIA NETA LIMPIA -->
+        <div class="kpi-card highlight-profit" id="cardProfit">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Ganancia Neta Limpia</span>
+            <span class="kpi-icon-pill icon-emerald">💎</span>
+          </div>
+          <div class="kpi-value-row">
+            <div class="kpi-value" id="kpiNetProfit" style="color: var(--color-vintage-olive);">$35.000</div>
+            <span class="kpi-tag tag-profit" id="kpiProfitTag">Rentable (+7%)</span>
+          </div>
+          <div class="kpi-sub" id="kpiProfitMargin">Margen: 7% • Equilibrio: 14 prendas</div>
+        </div>
+
+      </div>
+
+      <!-- Barra Ejecutiva de Distribución Financiera de Ingresos -->
+      <div class="revenue-breakdown-card">
+        <div class="breakdown-header">
+          <div class="breakdown-title">
+            <span class="breakdown-bullet">📊</span>
+            <strong>Distribución de cada $100 facturados en el período:</strong>
+          </div>
+          <div class="breakdown-legend">
+            <span class="legend-item"><span class="dot dot-fixed"></span> Costos Fijos: <strong id="pctFixedDisplay">65% ($325.000)</strong></span>
+            <span class="legend-item"><span class="dot dot-var"></span> Costos Variables: <strong id="pctVarDisplay">28% ($142.500)</strong></span>
+            <span class="legend-item"><span class="dot dot-profit"></span> Ganancia Neta: <strong id="pctProfitDisplay">7% ($34.000)</strong></span>
+          </div>
+        </div>
+        <div class="breakdown-progress-bar">
+          <div class="bar-seg bar-fixed" id="barSegFixed" style="width: 65%;" title="Costos Fijos"></div>
+          <div class="bar-seg bar-var" id="barSegVar" style="width: 28%;" title="Costos Variables"></div>
+          <div class="bar-seg bar-profit" id="barSegProfit" style="width: 7%;" title="Ganancia Neta"></div>
+        </div>
+      </div>
+
+      <!-- Simulador Interactivo de Ropa Alquilada y Precios -->
+      <div class="rental-simulator-box">
+        <div class="admin-box-header">
+          <div class="sim-header-title">
+            <span class="sim-icon">⚡</span>
+            <div>
+              <h3>Calculadora & Simulador Dinámico de Ganancias</h3>
+              <p class="sim-header-desc">Al mover el selector o cambiar precios, <strong>los cuadros superiores se actualizan de inmediato</strong>.</p>
+            </div>
+          </div>
+          <span class="box-total-badge" id="simResultBadge">Simulación en Vivo</span>
+        </div>
+
+        <div class="simulator-controls">
+          
+          <!-- Control 1: Selector y campo de Prendas Alquiladas -->
+          <div class="simulator-item">
+            <div class="sim-label-row">
+              <label for="simRentalsRange">Prendas Alquiladas al Mes:</label>
+              <div class="sim-direct-input-wrap">
+                <input type="number" id="simRentalsDirectInput" class="sim-number-input" min="1" max="150" value="15" oninput="syncRentalsQty(this.value)">
+                <span>prendas</span>
+              </div>
+            </div>
+            <input type="range" id="simRentalsRange" min="1" max="150" value="15" oninput="syncRentalsQty(this.value)">
+            
+            <!-- Botones de Metas Rápidas -->
+            <div class="simulator-presets">
+              <span class="presets-label">Metas rápidas:</span>
+              <button type="button" class="preset-pill" onclick="setPresetQty(15)">15 Base</button>
+              <button type="button" class="preset-pill" onclick="setPresetQty(30)">30 Mes</button>
+              <button type="button" class="preset-pill" onclick="setPresetQty(60)">60 Alta</button>
+              <button type="button" class="preset-pill" onclick="setPresetQty(95)">95 Egresos</button>
+              <button type="button" class="preset-pill" onclick="setPresetQty(120)">120 Máx</button>
+            </div>
+          </div>
+
+          <!-- Control 2: Precio Promedio por Alquiler con Stepper -->
+          <div class="simulator-item">
+            <label for="simAvgPrice">Precio Promedio por Alquiler ($):</label>
+            <div class="price-stepper-wrap">
+              <button type="button" class="btn-stepper" onclick="adjustAvgPrice(-2000)" title="Bajar $2.000">−</button>
+              <input type="number" id="simAvgPrice" class="form-control price-input-bold" value="33500" step="500" oninput="updateCostCalculations()">
+              <button type="button" class="btn-stepper" onclick="adjustAvgPrice(2000)" title="Subir $2.000">+</button>
+            </div>
+            <span class="sim-helper-text">💡 Promedio del catálogo Iguazú: $33.500</span>
+          </div>
+
+          <!-- Control 3: Punto de Equilibrio (Break-Even) -->
+          <div class="simulator-item">
+            <div class="breakeven-card-box">
+              <div class="be-card-header">
+                <span class="be-label">Punto de Equilibrio (Break-even):</span>
+                <span class="be-badge" id="beBadge">Análisis</span>
+              </div>
+              <div id="simBreakevenText" class="breakeven-status-box status-success">
+                Debes alquilar 14 prendas para no perder
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Grilla de Configuración: Costos Fijos y Costos Variables -->
+      <div class="admin-sections-grid">
+        
+        <!-- COSTOS FIJOS MENSUALES -->
+        <div class="admin-box">
+          <div class="admin-box-header">
+            <h3>🏢 Costos Fijos Mensuales</h3>
+            <span class="box-total-badge" id="totalFixedBadge">Total: $325.000</span>
+          </div>
+          <p style="font-size: 0.82rem; color: var(--color-vintage-muted); margin-bottom: 16px;">
+            Gastos que pagas todos los meses independientemente de cuánta ropa alquiles:
+          </p>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cfShowroom">Alquiler Local DreesLoop (Victoria Aguirre):</label>
+              <span class="cost-pct-pill" id="pctCfShowroom">55%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cfShowroom" value="180000" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cfServicios">Servicios (Luz, Agua, WiFi):</label>
+              <span class="cost-pct-pill" id="pctCfServicios">14%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cfServicios" value="45000" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cfMonotributo">Monotributo & Contador/a:</label>
+              <span class="cost-pct-pill" id="pctCfMonotributo">11%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cfMonotributo" value="35000" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cfMarketing">Publicidad Fija & Redes:</label>
+              <span class="cost-pct-pill" id="pctCfMarketing">12%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cfMarketing" value="40000" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cfMantenimiento">Mantenimiento & Art. Limpieza:</label>
+              <span class="cost-pct-pill" id="pctCfMantenimiento">8%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cfMantenimiento" value="25000" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <!-- TOTAL DE COSTOS FIJOS (ABAJO) -->
+          <div class="cost-box-footer-total">
+            <div class="total-label-wrap">
+              <span class="total-title">📌 Total de Costos Fijos:</span>
+              <small class="total-desc">Gastos mensuales fijos del showroom</small>
+            </div>
+            <div class="total-value-display" id="bottomTotalFixed">$325.000</div>
+          </div>
+
+          <button class="btn btn-sm btn-secondary btn-block" style="margin-top: 14px;" onclick="saveCostsConfig()">💾 Guardar Costos Fijos</button>
+        </div>
+
+        <!-- COSTOS VARIABLES POR PRENDA -->
+        <div class="admin-box">
+          <div class="admin-box-header">
+            <h3>👗 Costos Variables por Prenda</h3>
+            <span class="box-total-badge" id="totalVarUnitBadge">Por prenda: $9.500</span>
+          </div>
+          <p style="font-size: 0.82rem; color: var(--color-vintage-muted); margin-bottom: 16px;">
+            Gastos que se generan únicamente cuando una prenda es alquilada:
+          </p>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cvTintoreria">Tintorería & Vaporizado por prenda:</label>
+              <span class="cost-pct-pill" id="pctCvTintoreria">47%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cvTintoreria" value="4500" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cvPackaging">Funda protectora, percha & precinto:</label>
+              <span class="cost-pct-pill" id="pctCvPackaging">17%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cvPackaging" value="1600" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cvLogistica">Cadetería / Logística de entrega:</label>
+              <span class="cost-pct-pill" id="pctCvLogistica">21%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cvLogistica" value="2000" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <div class="cost-input-row">
+            <div class="cost-label-col">
+              <label for="cvComision">Comisión de cobro (Mercado Pago / POS):</label>
+              <span class="cost-pct-pill" id="pctCvComision">15%</span>
+            </div>
+            <div class="input-curr-wrap"><span>$</span><input type="number" id="cvComision" value="1400" oninput="updateCostCalculations()"></div>
+          </div>
+
+          <!-- TOTAL DE COSTOS VARIABLES UNITARIOS (ABAJO) -->
+          <div class="cost-box-footer-total">
+            <div class="total-label-wrap">
+              <span class="total-title">👗 Total Costo Unitario:</span>
+              <small class="total-desc">Gasto por cada prenda alquilada</small>
+            </div>
+            <div class="total-value-display" id="bottomTotalVarUnit">$9.500 <small style="font-size: 0.72rem; font-weight: normal; color: var(--color-vintage-muted);">/ prenda</small></div>
+          </div>
+
+          <div style="font-size: 0.78rem; color: var(--color-vintage-muted); margin-top: 8px;">
+            <em>💡 A mayor cantidad de prendas alquiladas, tu costo fijo se diluye y tu ganancia crece.</em>
+          </div>
+
+          <button class="btn btn-sm btn-secondary btn-block" style="margin-top: 14px;" onclick="saveCostsConfig()">💾 Guardar Costos Variables</button>
+        </div>
+      </div>
+
+      <!-- RESUMEN GENERAL DE COSTOS: FIJOS, UNITARIOS Y TOTALES (ABAJO) -->
+      <div class="total-costs-executive-banner">
+        <div class="total-costs-banner-header">
+          <div class="banner-title-group">
+            <span class="banner-icon">📊</span>
+            <div>
+              <h3>Resumen General de Costos: Fijos, Unitarios y Totales</h3>
+              <p>Cálculo consolidado según la cantidad de prendas alquiladas en el mes (<strong id="summaryRentalsQtyLabel">15 prendas</strong>).</p>
+            </div>
+          </div>
+          <span class="banner-badge">Estructura de Costos DreesLoop</span>
+        </div>
+
+        <div class="total-costs-triplet-grid">
+          <!-- Tarjeta 1: Total Costos Fijos -->
+          <div class="cost-summary-pill-card fixed-card">
+            <span class="card-kicker">1. TOTAL COSTOS FIJOS</span>
+            <div class="card-amount" id="execTotalFixed">$325.000</div>
+            <div class="card-detail">Alquiler local, servicios, monotributo, publicidad y mantenimiento.</div>
+          </div>
+
+          <!-- Tarjeta 2: Total Costo Unitario y Variable -->
+          <div class="cost-summary-pill-card var-card">
+            <span class="card-kicker">2. TOTAL COSTOS UNITARIOS</span>
+            <div class="card-amount" id="execUnitVar">$9.500 <span class="unit-text">/ prenda</span></div>
+            <div class="card-detail" id="execTotalVarDetail">Para 15 prendas = <strong>$142.500</strong> en tintorería, fundas, cadetería y comisiones.</div>
+          </div>
+
+          <!-- Tarjeta 3: COSTOS TOTALES CONSOLIDADOS -->
+          <div class="cost-summary-pill-card total-card">
+            <span class="card-kicker">3. COSTOS TOTALES (FIJOS + VAR)</span>
+            <div class="card-amount" id="execGrandTotalCosts">$467.500</div>
+            <div class="card-detail" id="execUnitCostBreakdown">Fijos ($325.000) + Variables ($142.500) • Costo total real: <strong>$31.167</strong> por prenda.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Registro de Alquileres Reales para Contar Prendas -->
+      <div class="rentals-tracker-table-box">
+        <div class="admin-box-header">
+          <div>
+            <h3>📋 Libro de Registro de Prendas Alquiladas</h3>
+            <p style="font-size: 0.82rem; color: var(--color-vintage-muted); margin-top: 3px;">
+              Historial de prendas alquiladas con clienta, fechas y montos reales cobrados.
+            </p>
+          </div>
+          <button class="btn btn-sm btn-terracotta" onclick="toggleQuickAddForm()">+ Anotar Nueva Prenda Alquilada</button>
+        </div>
+
+        <!-- Formulario Rápido Ocultable -->
+        <div class="quick-add-rental-form" id="quickAddRentalContainer" style="display: none;">
+          <input type="text" id="addRentalClient" placeholder="Nombre clienta (ej: Camila R.)" required>
+          <select id="addRentalOutfitSelect">
+            <!-- Inyectado por JS con prendas del catálogo -->
+          </select>
+          <input type="number" id="addRentalPrice" placeholder="Monto Alquiler ($)" value="34500">
+          <input type="date" id="addRentalDate">
+          <button class="btn btn-sm btn-primary" onclick="submitNewRentalRecord()">Añadir al Libro</button>
+        </div>
+
+        <div class="table-responsive">
+          <table class="admin-table">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Fecha</th>
+                <th>Clienta</th>
+                <th>Prenda Alquilada</th>
+                <th>Alquiler Cobrado</th>
+                <th>Depósito</th>
+                <th>Costo Variable</th>
+                <th>Ganancia Bruta</th>
+                <th>Acción</th>
+              </tr>
+            </thead>
+            <tbody id="adminRentalsTableBody">
+              <!-- Renderizado dinámicamente -->
+            </tbody>
+            <tfoot>
+              <tr class="table-totals-row">
+                <td colspan="4"><strong>Totales Registrados en el Libro:</strong></td>
+                <td style="color: var(--color-vintage-olive); font-weight: 800;" id="tblTotalRevenue">$501.500</td>
+                <td style="color: var(--color-vintage-terracotta); font-weight: 800;" id="tblTotalDeposits">$247.000</td>
+                <td style="color: var(--color-vintage-muted); font-weight: 700;" id="tblTotalVarCosts">$142.500</td>
+                <td style="font-weight: 800; color: var(--color-vintage-espresso);" id="tblTotalGrossMargin">$359.000</td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+
+      <!-- Ajustes de Seguridad: Cambiar Contraseña -->
+      <div style="margin-top: 24px; text-align: right; font-size: 0.85rem;">
+        <button class="btn btn-sm btn-secondary" onclick="promptChangePassword()">🔑 Cambiar Contraseña de Administradora</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
