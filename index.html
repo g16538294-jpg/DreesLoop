@@ -2,9 +2,9 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
   <title>DreesLoop | Atelier Vintage & Alquiler de Outfits • Puerto Iguazú</title>
-  <meta name="description" content="DreesLoop en Puerto Iguazú, Misiones. Alquiler de vestidos de fiesta, gala, egresos y trajes con estilo vintage de autor, depósito de seguridad retornable y gestión transparente.">
+  <meta name="description" content="DreesLoop en Puerto Iguazú, Misiones. Alquiler de vestidos de fiesta, gala, egresos y trajes para damas y caballeros con estilo vintage de autor, depósito retornable y servicio de maquillaje y grooming.">
   
   <!-- Google Fonts Vintage & Editorial -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,7 @@
 
   <!-- Top Announcement Bar -->
   <div class="top-banner">
-    <p>🌿 <strong>DreesLoop • Puerto Iguazú:</strong> Alquiler de Outfits de Gala & Graduación • 💄 Maquillaje Profesional • 🕒 Lun a Sáb: 7:00 a 12:00 y 14:00 a 21:30 hs (Dom cerrado) ✨</p>
+    <p>🌿 <strong>DreesLoop • Puerto Iguazú:</strong> Alquiler Damas & Caballeros • 💄 Maquillaje & Grooming • 📞 WhatsApp: <strong><a href="https://wa.me/5493757511855" target="_blank" style="color: inherit; text-decoration: underline;">+54 9 3757 51-1855</a></strong> • 🕒 Lun a Sáb: 7:00 a 12:00 y 14:00 a 21:30 hs ✨</p>
   </div>
 
   <!-- Header / Navigation con Logo Vintage Elegante y Acceso a Costos -->
@@ -336,15 +336,36 @@
           </div>
         </div>
 
+        <!-- Selector de Colección: Damas (Mujeres) vs Caballeros (Hombres) -->
+        <div class="clueless-gender-bar">
+          <span class="gender-bar-title">👥 SELECCIONA TU COLECCIÓN:</span>
+          <div class="clueless-gender-buttons">
+            <button type="button" class="gender-btn active" id="genderBtnMujeres" onclick="setCluelessGender('mujeres')">
+              <span class="g-icon">👩</span>
+              <div class="g-text-wrap">
+                <span class="g-title">Colección Damas / Mujeres</span>
+                <span class="g-badge">Vestidos de Gala, Corsets & Faldas</span>
+              </div>
+            </button>
+            <button type="button" class="gender-btn" id="genderBtnHombres" onclick="setCluelessGender('hombres')">
+              <span class="g-icon">👨</span>
+              <div class="g-text-wrap">
+                <span class="g-title">Colección Caballeros / Hombres</span>
+                <span class="g-badge">Trajes Sastreros, Smokings & Grooming</span>
+              </div>
+            </button>
+          </div>
+        </div>
+
         <!-- Menubar / Modes Toolbar -->
         <div class="clueless-win-menubar">
           <div class="menubar-modes">
             <span class="menubar-label">MODO:</span>
             <button type="button" class="clueless-mode-btn active" id="btnModeMix" onclick="setCluelessMode('mix')">
-              👚 Mix & Match (Tops & Faldas)
+              <span id="btnModeMixLabel">👚 Mix & Match (Tops & Faldas)</span>
             </button>
             <button type="button" class="clueless-mode-btn" id="btnModeGown" onclick="setCluelessMode('gown')">
-              👗 Vestidos de Gala & Colación
+              <span id="btnModeGownLabel">👗 Vestidos de Gala & Colación</span>
             </button>
           </div>
 
@@ -399,7 +420,7 @@
                     </button>
                     
                     <div class="clueless-part-viewport">
-                      <div class="slot-badge-label">PRENDA SUPERIOR</div>
+                      <div class="slot-badge-label" id="cluelessSlotTopBadge">PRENDA SUPERIOR</div>
                       <img id="cluelessTopImg" src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=600&q=80" alt="Prenda Superior" class="clueless-slot-img">
                       <div class="clueless-part-tag" id="cluelessTopTag">
                         <span class="part-title" id="cluelessTopName">Blazer Tartan Clueless Amarillo</span>
@@ -426,7 +447,7 @@
                     </button>
                     
                     <div class="clueless-part-viewport">
-                      <div class="slot-badge-label">PRENDA INFERIOR</div>
+                      <div class="slot-badge-label" id="cluelessSlotBottomBadge">PRENDA INFERIOR</div>
                       <img id="cluelessBottomImg" src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=600&q=80" alt="Prenda Inferior" class="clueless-slot-img">
                       <div class="clueless-part-tag" id="cluelessBottomTag">
                         <span class="part-title" id="cluelessBottomName">Falda Plisada Tartan Cher 90s</span>
@@ -447,7 +468,7 @@
                   </button>
 
                   <div class="clueless-gown-viewport">
-                    <div class="slot-badge-label">VESTIDO DE GALA COMPLETO</div>
+                    <div class="slot-badge-label" id="cluelessSlotFullBadge">VESTIDO DE GALA COMPLETO</div>
                     <img id="cluelessGownImg" src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80" alt="Vestido de Gala DreesLoop" class="clueless-gown-img">
                     <div class="clueless-part-tag" id="cluelessGownTag">
                       <span class="part-title" id="cluelessGownName">Vestido Esmeralda Velvet</span>
@@ -460,10 +481,10 @@
                   </button>
                 </div>
 
-                <!-- Floating Makeup Bubble (Face & Eyes close-up according to skin tone) -->
-                <div class="clueless-face-bubble" id="cluelessFaceBubble" title="Detalle del estilo de maquillaje en tu tono de piel">
+                <!-- Floating Makeup/Grooming Bubble (Face & Eyes close-up according to skin tone) -->
+                <div class="clueless-face-bubble" id="cluelessFaceBubble" title="Detalle del estilo de maquillaje o grooming">
                   <div class="bubble-avatar-wrap">
-                    <img id="cluelessMakeupFaceImg" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80" alt="Maquillaje en modelo" class="bubble-avatar-img">
+                    <img id="cluelessMakeupFaceImg" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&q=80" alt="Estilismo en modelo" class="bubble-avatar-img">
                     <span class="bubble-pulse-ring"></span>
                   </div>
                   <div class="bubble-avatar-meta">
@@ -486,7 +507,7 @@
               <div class="clueless-advisor-box">
                 <div class="advisor-head">
                   <span class="advisor-icon">👑</span>
-                  <strong>CHER'S COLORIMETRY ADVICE (DREESLOOP ATELIER):</strong>
+                  <strong id="cluelessAdvisorTitle">CHER'S COLORIMETRY ADVICE (DREESLOOP ATELIER):</strong>
                 </div>
                 <p id="cluelessAdviceText" class="advisor-body">
                   Para <strong>Piel Clara</strong>: El conjunto Tartan Cher en amarillo pastel con marfil es el clásico indiscutido de Clueless. El maquillaje Smokey Eyes aporta un toque rebelde y vanguardista para recepciones de gala.
@@ -494,10 +515,10 @@
                 <div class="clueless-palette-preview">
                   <span class="pal-label">Pigmentos & Paleta Activa:</span>
                   <div class="pal-dots" id="cluelessPaletteDots">
-                    <span class="pal-dot" style="background: #E8D36A;" title="Prenda Superior: Tartan"></span>
-                    <span class="pal-dot" style="background: #E8D36A;" title="Prenda Inferior: Tartan"></span>
-                    <span class="pal-dot" style="background: #F3D9C9;" title="Tez: Porcelana HD"></span>
-                    <span class="pal-dot" style="background: #2B2B2B;" title="Sombra: Carbón Ahumado"></span>
+                    <span class="pal-dot" style="background: #E8D36A;" title="Prenda Superior"></span>
+                    <span class="pal-dot" style="background: #E8D36A;" title="Prenda Inferior"></span>
+                    <span class="pal-dot" style="background: #F3D9C9;" title="Tez"></span>
+                    <span class="pal-dot" style="background: #2B2B2B;" title="Estilo / Sombra"></span>
                   </div>
                 </div>
               </div>
@@ -544,17 +565,18 @@
               </div>
             </div>
 
-            <!-- STEP 2: MAQUILLAJE PROFESIONAL (40% OFF PROMO) -->
+            <!-- STEP 2: MAQUILLAJE / GROOMING (40% OFF PROMO) -->
             <div class="clueless-ctrl-card">
               <div class="ctrl-card-header">
                 <span class="ctrl-step-badge">2</span>
                 <div>
-                  <h4>Estilo de Maquillaje Profesional</h4>
-                  <p>Incluido en la Promo Total Look con <strong>40% OFF</strong>:</p>
+                  <h4 id="cluelessStep2Title">Estilo de Maquillaje Profesional</h4>
+                  <p id="cluelessStep2Desc">Incluido en la Promo Total Look con <strong>40% OFF</strong>:</p>
                 </div>
               </div>
 
-              <div class="clueless-makeup-grid">
+              <!-- Grilla Mujeres: Maquillaje -->
+              <div class="clueless-makeup-grid" id="cluelessMakeupGridWomen">
                 <button type="button" class="clueless-mu-card active" data-id="m1" onclick="selectFittingMakeup('m1', this)">
                   <img id="chipImgM1" src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=120&q=80" alt="Glam Smokey">
                   <div class="mu-meta">
@@ -591,6 +613,45 @@
                   </div>
                 </button>
               </div>
+
+              <!-- Grilla Hombres: Grooming & Estilismo Masculino -->
+              <div class="clueless-makeup-grid" id="cluelessGroomingGridMen" style="display: none;">
+                <button type="button" class="clueless-mu-card active" data-id="gh1" onclick="selectFittingMakeup('gh1', this)">
+                  <img id="chipImgGH1" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=120&q=80" alt="Barba Perfilada">
+                  <div class="mu-meta">
+                    <strong>Barba Perfilada & Piel Mate</strong>
+                    <span>Navaja & Anti-Brillo • $18.000</span>
+                    <small class="mu-promo-tag">Con Promo: $10.800</small>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-mu-card" data-id="gh2" onclick="selectFittingMakeup('gh2', this)">
+                  <img id="chipImgGH2" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="Pompadour Gala">
+                  <div class="mu-meta">
+                    <strong>Pompadour & Texturizado</strong>
+                    <span>Fijación Gala 16hs • $16.000</span>
+                    <small class="mu-promo-tag">Con Promo: $9.600</small>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-mu-card" data-id="gh3" onclick="selectFittingMakeup('gh3', this)">
+                  <img id="chipImgGH3" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=120&q=80" alt="Egresado Natural">
+                  <div class="mu-meta">
+                    <strong>Estilismo Egresado Natural</strong>
+                    <span>Corrección Invisible • $15.000</span>
+                    <small class="mu-promo-tag">Con Promo: $9.000</small>
+                  </div>
+                </button>
+
+                <button type="button" class="clueless-mu-card" data-id="gh4" onclick="selectFittingMakeup('gh4', this)">
+                  <img id="chipImgGH4" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Total Grooming Black Tie">
+                  <div class="mu-meta">
+                    <strong>Total Grooming Black Tie</strong>
+                    <span>Barba + Pelo + Piel HD • $24.000</span>
+                    <small class="mu-promo-tag">Con Promo: $14.400</small>
+                  </div>
+                </button>
+              </div>
             </div>
 
             <!-- STEP 3: DRESS ME SHUFFLE BUTTON -->
@@ -606,7 +667,7 @@
             <div class="clueless-summary-box">
               <div class="summary-topline">
                 <span class="clueless-pill-promo">🎉 PROMO TOTAL LOOK APLICADA</span>
-                <span class="clueless-pill-discount">40% OFF en Maquillaje</span>
+                <span class="clueless-pill-discount" id="summaryDiscountTag">40% OFF en Maquillaje</span>
               </div>
 
               <div class="clueless-bill-rows">
@@ -623,11 +684,11 @@
                   <span style="color: #E5C378; font-size: 0.8rem;">✓ Asesoría Personalizada</span>
                 </div>
                 <div class="bill-row bill-discount">
-                  <span>🎁 Bonificación Promo Total Look (40% OFF Maquillaje)</span>
+                  <span id="summaryDiscountLabel">🎁 Bonificación Promo Total Look (40% OFF Maquillaje)</span>
                   <span id="summaryDiscountAmount">-$10.000</span>
                 </div>
                 <div class="bill-row bill-total">
-                  <span>TOTAL LOOK COMPLETO (4 días + Maquillaje):</span>
+                  <span>TOTAL LOOK COMPLETO (4 días + Servicio):</span>
                   <strong id="summaryTotalPrice">$54.500</strong>
                 </div>
               </div>
@@ -635,7 +696,7 @@
               <button type="button" class="btn btn-primary btn-block btn-lg clueless-book-btn" id="bookLookBtn" onclick="bookCurrentTotalLook()">
                 👑 Reservar Este Total Look (Cher's Pick)
               </button>
-              <small class="clueless-book-hint">💡 Al presionar, las prendas, el estilo de maquillaje y tu tono de piel se cargarán automáticamente en la Ficha de Reserva.</small>
+              <small class="clueless-book-hint">💡 Al presionar, las prendas, el estilo de maquillaje/grooming y tu tono de piel se cargarán automáticamente en la Ficha de Reserva.</small>
             </div>
 
           </div>
@@ -790,8 +851,8 @@
           📍 Av. Victoria Aguirre 480, Piso 1, Puerto Iguazú. ¡Asegura tu turno de prueba y maquillaje con anticipación!</p>
         </div>
         <div class="makeup-cta-buttons">
-          <a href="https://wa.me/5493757448899?text=Hola%20DreesLoop!%20Quisiera%20consultar%20por%20turnos%20disponibles%20de%20Maquillaje%20y%20Alquiler%20en%20Puerto%20Iguazú" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: var(--color-vintage-gold); color: #170A1C; font-weight: 700;">
-            💄 Turno por WhatsApp
+          <a href="https://wa.me/5493757511855?text=Hola%20DreesLoop!%20Quisiera%20consultar%20por%20turnos%20disponibles%20de%20Maquillaje%20y%20Alquiler%20en%20Puerto%20Iguazú" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background: var(--color-vintage-gold); color: #170A1C; font-weight: 700;">
+            💄 Turno por WhatsApp (3757-511855)
           </a>
           <a href="#probador-virtual" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.4); color: #FFFFFF;">
             Probar Look Virtual 🪞
@@ -900,7 +961,7 @@
             <div class="form-grid-2">
               <div class="form-group">
                 <label for="clientPhone">Celular / WhatsApp <span>*</span></label>
-                <input type="tel" id="clientPhone" class="form-control" placeholder="Ej: +54 9 3757 55-1234" required>
+                <input type="tel" id="clientPhone" class="form-control" placeholder="Ej: +54 9 3757 51-1855" required>
               </div>
 
               <div class="form-group">
@@ -1041,7 +1102,7 @@
               <span class="icon">📞</span>
               <div>
                 <h4>Línea Directa DreesLoop</h4>
-                <p>WhatsApp: +54 9 3757 44-8899<br>Email: contacto@dreesloop.com</p>
+                <p>WhatsApp: <a href="https://wa.me/5493757511855" target="_blank" style="color: inherit; font-weight: 700;">+54 9 3757 51-1855</a><br>Email: contacto@dreesloop.com</p>
               </div>
             </div>
           </div>
@@ -1351,9 +1412,9 @@
   </div>
 
   <!-- WhatsApp Floating Quick Button -->
-  <a href="https://wa.me/5493757448899?text=Hola%20DreesLoop%20Iguazú!%20Quisiera%20consultar%20por%20el%20alquiler%20de%20un%20outfit" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Consultar por WhatsApp">
+  <a href="https://wa.me/5493757511855?text=Hola%20DreesLoop%20Iguazú!%20Quisiera%20consultar%20por%20el%20alquiler%20de%20un%20outfit" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Consultar por WhatsApp">
     <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.97.529 1.834.78 2.796.78h.005c3.182 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.767-5.775-5.767zm7.647 5.765c-.002 4.238-3.449 7.685-7.683 7.685-1.294 0-2.518-.328-3.593-.9l-3.957 1.038 1.057-3.859c-.66-1.144-1.01-2.454-1.01-3.964.003-4.238 3.45-7.685 7.686-7.685 4.234 0 7.681 3.447 7.684 7.685z"/></svg>
-    <span class="whatsapp-float-tooltip">DreesLoop Iguazú • WhatsApp</span>
+    <span class="whatsapp-float-tooltip">DreesLoop Iguazú • WhatsApp 3757-511855</span>
   </a>
 
   <!-- ==========================================================================

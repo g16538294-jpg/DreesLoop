@@ -136,12 +136,12 @@ const PRODUCTS_DATA = [
     retailPrice: 290000,
     tag: "Alta Costura",
     tagClass: "",
-    image: "https://images.unsplash.com/photo-1765870972598-1c9c6af7dbf3?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=800&q=80",
     color: "Negro Obsidiana",
     style: "Sirena Dramático",
     fabric: "Scuba crepé pesado con pedrería en escote trasero",
     measurements: "Busto: 96-102cm | Cintura: 76-82cm | Cadera: 104-108cm",
-    description: "Corte sirena que estiliza la figura por completo, con espalda baja y detalles artesanales. Jamás pasa desapercibido en fiestas de etiqueta."
+    description: "Corte sirena que estiliza la figura por completo, con espalda baja y detalles artesanales en negro obsidiana. Jamás pasa desapercibido en fiestas de etiqueta."
   },
   {
     id: 8,
@@ -155,12 +155,12 @@ const PRODUCTS_DATA = [
     retailPrice: 185000,
     tag: "Moda Circular",
     tagClass: "tag-eco",
-    image: "https://plus.unsplash.com/premium_photo-1792379253049-e2f463140ab8?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=800&q=80",
     color: "Rosa Dorado / Champagne",
     style: "Plisado Romántico",
-    fabric: "Gasa metalizada plisada a mano",
+    fabric: "Gasa metalizada plisada a mano con reflejos champagne",
     measurements: "Busto: 86-90cm | Cintura: 66-70cm | Largo midi (125cm)",
-    description: "Vestido de falda midi plisada con brillo tenue. Ideal para fiestas al atardecer frente al río, cócteles o casamientos diurnos en Misiones."
+    description: "Vestido de falda midi plisada con brillo tenue rose gold. Ideal para fiestas al atardecer frente al río, cócteles o casamientos diurnos en Misiones."
   },
   {
     id: 9,
@@ -174,7 +174,7 @@ const PRODUCTS_DATA = [
     retailPrice: 340000,
     tag: "Graduación",
     tagClass: "tag-graduacion",
-    image: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
     color: "Negro & Solapa de Satén",
     style: "Smoking Clásico de Autor",
     fabric: "Terciopelo negro con solapa redonda de raso brillante",
@@ -193,7 +193,7 @@ const PRODUCTS_DATA = [
     retailPrice: 170000,
     tag: "Eco-Choice",
     tagClass: "tag-eco",
-    image: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=800&q=80",
     color: "Terracota & Durazno cálido",
     style: "Boho Chic Editorial",
     fabric: "Chiffon orgánico reciclado doble capa",
@@ -212,7 +212,7 @@ const PRODUCTS_DATA = [
     retailPrice: 215000,
     tag: "Color Trend",
     tagClass: "tag-graduacion",
-    image: "https://images.unsplash.com/photo-1649346631074-a8141d94f6f9?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?auto=format&fit=crop&w=800&q=80",
     color: "Fucsia Magenta Vibrante",
     style: "Color Block Impactante",
     fabric: "Gabardina sastrera con caída semi-pesada",
@@ -231,12 +231,12 @@ const PRODUCTS_DATA = [
     retailPrice: 190000,
     tag: "Pieza Vintage",
     tagClass: "tag-vintage",
-    image: "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80",
     color: "Mostaza Dorado Vintage",
     style: "Retro Chic",
     fabric: "Brocado de seda con reflejos oro mate",
     measurements: "Busto: 92-96cm | Cintura: 72-76cm | Largo: 140cm",
-    description: "Una auténtica joya retro rescatada y restaurada para DreesLoop. Detalle de cuello halter y falda semi plato que evoca la época dorada de la moda."
+    description: "Una auténtica joya retro rescatada y restaurada para DreesLoop. Detalle de cuello halter y falda semi plato en tono mostaza dorado que evoca la época dorada de la moda."
   },
   {
     id: 13,
@@ -250,12 +250,12 @@ const PRODUCTS_DATA = [
     retailPrice: 310000,
     tag: "Exclusivo",
     tagClass: "",
-    image: "https://images.unsplash.com/photo-1775871436595-8f89ee46b610?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1776142749959-988d3543a8f5?auto=format&fit=crop&w=800&q=80",
     color: "Azul Zafiro Intenso",
     style: "Gala Clásica",
-    fabric: "Mikado de seda estructurado",
+    fabric: "Mikado de seda estructurado en azul real",
     measurements: "Busto: 104-110cm | Cintura: 88-94cm | Largo: 155cm",
-    description: "Corte princesa imponente con bolsillos ocultos laterales. Sofisticación sin esfuerzo para graduaciones universitarias, madrinas y galas de honor."
+    description: "Corte princesa imponente en azul zafiro con bolsillos ocultos laterales. Sofisticación sin esfuerzo para graduaciones universitarias, madrinas y galas de honor."
   },
   {
     id: 14,
@@ -269,12 +269,12 @@ const PRODUCTS_DATA = [
     retailPrice: 175000,
     tag: "Edición Iguazú",
     tagClass: "tag-vintage",
-    image: "https://images.unsplash.com/photo-1767687700398-b2052993fb56?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1775871436595-8f89ee46b610?auto=format&fit=crop&w=800&q=80",
     color: "Estampado Floral Oliva y Óxido",
     style: "Vintage Tropical",
     fabric: "Crepé georgette con caída envolvente",
     measurements: "Busto: 98-103cm | Cintura: 80-86cm | Falda envolvente",
-    description: "Homenaje al entorno selvático de Puerto Iguazú. Estampa botánica retro con tonos tierra y olivas. Muy fresco y perfecto para eventos en quintas o jardines."
+    description: "Homenaje al entorno selvático de Puerto Iguazú. Estampa botánica retro con tonos tierra y florales. Muy fresco y perfecto para eventos en quintas o jardines."
   },
   {
     id: 15,
@@ -288,12 +288,12 @@ const PRODUCTS_DATA = [
     retailPrice: 280000,
     tag: "Alta Costura",
     tagClass: "tag-vintage",
-    image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1765870972598-1c9c6af7dbf3?auto=format&fit=crop&w=800&q=80",
     color: "Rojo Rubí Carmesí",
     style: "Gala Dramática",
     fabric: "Raso mikado con escote en V y falda estructurada",
     measurements: "Busto: 90-95cm | Cintura: 70-74cm | Largo: 155cm",
-    description: "Pieza icónica de alta etiqueta en raso carmesí con caída escultural. Diseñado para galas benéficas, bodas solemnes y aniversarios de prestigio en Puerto Iguazú."
+    description: "Pieza icónica de alta etiqueta en raso carmesí con caída escultural y volumen deslumbrante. Diseñado para galas benéficas, bodas solemnes y aniversarios de prestigio en Puerto Iguazú."
   },
   {
     id: 16,
@@ -307,12 +307,12 @@ const PRODUCTS_DATA = [
     retailPrice: 320000,
     tag: "Exclusivo",
     tagClass: "",
-    image: "https://images.unsplash.com/photo-1774542872391-bfaf032fbb31?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
     color: "Dorado Champán / Nude Perla",
     style: "Minimalista Sofisticado",
     fabric: "Satén de seda líquida al bies con caída fluida",
     measurements: "Busto: 85-89cm | Cintura: 64-68cm | Largo: 150cm",
-    description: "Elegancia pura estilo 90s slip dress. Satén fluido que resbala sobre la silueta y delicadas tiras cruzadas en la espalda descubierta. Resplandor dorado de lujo."
+    description: "Elegancia pura estilo 90s slip dress. Satén dorado champán fluido que resbala sobre la silueta y delicadas tiras cruzadas en la espalda descubierta. Resplandor dorado de lujo."
   },
   {
     id: 17,
@@ -326,12 +326,12 @@ const PRODUCTS_DATA = [
     retailPrice: 265000,
     tag: "Más Alquilado",
     tagClass: "tag-vintage",
-    image: "https://images.unsplash.com/photo-1656771142595-47915bab74ea?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1788621795497-7032767270d7?auto=format&fit=crop&w=800&q=80",
     color: "Azul Cobalto Eléctrico",
     style: "Gala Moderna",
     fabric: "Crepé georgette con aplicaciones de micro-cristales en corpiño",
     measurements: "Busto: 98-103cm | Cintura: 78-84cm | Largo: 152cm",
-    description: "Vibrante azul cobalto con destellos cristalinos en el escote. Falda de gran vuelo que aporta soltura al bailar en fiestas de gala y recepciones de graduación."
+    description: "Vibrante azul cobalto con destellos cristalinos en el escote y falda de pasarela de gran vuelo que aporta soltura al bailar en fiestas de gala y recepciones de graduación."
   },
   {
     id: 18,
@@ -345,7 +345,7 @@ const PRODUCTS_DATA = [
     retailPrice: 230000,
     tag: "Graduación",
     tagClass: "tag-graduacion",
-    image: "https://images.unsplash.com/photo-1788621795514-1dcbd750f6ea?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80",
     color: "Celeste Glaciar / Hielo Pastel",
     style: "Princesa Egresada",
     fabric: "Gasa translúcida plisada con corset ballenado y escote bardot",
@@ -364,7 +364,7 @@ const PRODUCTS_DATA = [
     retailPrice: 245000,
     tag: "Graduación",
     tagClass: "tag-graduacion",
-    image: "https://images.unsplash.com/photo-1790922858394-b2ac165be8be?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
     color: "Verde Pino / Bosque Misionero",
     style: "Sastrero Contemporáneo",
     fabric: "Lana fría liviana stretch con botones metálicos envejecidos",
@@ -383,12 +383,12 @@ const PRODUCTS_DATA = [
     retailPrice: 210000,
     tag: "Graduación",
     tagClass: "tag-graduacion",
-    image: "https://images.unsplash.com/photo-1789110853872-f416085557fa?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=800&q=80",
     color: "Terracota Cálido / Canela Suave",
     style: "Boho Chic Graduación",
     fabric: "Seda crepé lavada con caída natural y tajo lateral",
     measurements: "Busto: 90-94cm | Cintura: 70-75cm | Largo: 147cm",
-    description: "Color cálido que resalta cualquier bronceado en la noche de colación. Escote halter con espalda semiabierta, cómodo y liviano para bailar hasta el amanecer."
+    description: "Color cálido terracota que resalta cualquier bronceado en la noche de colación. Escote halter con espalda semiabierta, cómodo y liviano para bailar hasta el amanecer."
   },
   {
     id: 21,
@@ -421,12 +421,12 @@ const PRODUCTS_DATA = [
     retailPrice: 225000,
     tag: "Tendencia",
     tagClass: "",
-    image: "https://images.unsplash.com/photo-1747817330506-ef32218717cd?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1747817230321-4ad317ac0809?auto=format&fit=crop&w=800&q=80",
     color: "Beige Camel Tostado",
     style: "Power Suit Femenino",
     fabric: "Crepé sastrero con botones metálicos labrados en oro viejo",
     measurements: "Blazer cruzado + Pantalón Wide Leg tiro alto (Cintura: 70-74cm)",
-    description: "Puro estilo editorial. Blazer de cruce doble y pantalón palazzo extra ancho. Muy requerido para juras profesionales, recepciones y eventos corporativos."
+    description: "Puro estilo editorial. Blazer de cruce doble camel y pantalón palazzo extra ancho. Muy requerido para juras profesionales, recepciones y eventos corporativos."
   },
   {
     id: 23,
@@ -440,12 +440,12 @@ const PRODUCTS_DATA = [
     retailPrice: 240000,
     tag: "Pieza Vintage",
     tagClass: "tag-vintage",
-    image: "https://plus.unsplash.com/premium_photo-1674718918254-8f96b77c12d8?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1772615071603-ad5de36e425d?auto=format&fit=crop&w=800&q=80",
     color: "Negro con Canutillos y Cuentas Doradas",
     style: "Art Déco 1920",
     fabric: "Tul bordado a mano con flecos de seda en el bajo",
     measurements: "Busto: 84-88cm | Cintura: 66-70cm | Largo con flecos: 115cm",
-    description: "Auténtico homenaje a los locos años 20. Flecos que cobran vida al caminar y bailar. Ideal para fiestas temáticas de época, cócteles nocturnos y galas de cine."
+    description: "Auténtico homenaje a los locos años 20. Flecos y canutillos que cobran vida al caminar y bailar. Ideal para fiestas temáticas de época, cócteles nocturnos y galas de cine."
   },
   {
     id: 24,
@@ -459,12 +459,12 @@ const PRODUCTS_DATA = [
     retailPrice: 175000,
     tag: "Pieza Vintage",
     tagClass: "tag-vintage",
-    image: "https://images.unsplash.com/photo-1789110853555-6a2d8ed60d57?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1653688257587-004cb9193bd4?auto=format&fit=crop&w=800&q=80",
     color: "Negro con Lunares Blancos & Cinto Rojo",
     style: "Pin-Up Años 50",
     fabric: "Piqué de algodón peinado con enagua de cancán desmontable",
     measurements: "Busto: 88-92cm | Cintura: 68-72cm | Falda plato campana (110cm)",
-    description: "Corte New Look de los años 50 con cintura ceñida y falda campana con cancán. Clásico, divertido y encantador para sesiones de fotos, cumpleaños y celebraciones retro."
+    description: "Corte New Look de los años 50 con cintura ceñida y falda campana con lunares polka dots. Clásico, divertido y encantador para sesiones de fotos, cumpleaños y celebraciones retro."
   },
   {
     id: 25,
@@ -478,12 +478,12 @@ const PRODUCTS_DATA = [
     retailPrice: 260000,
     tag: "Boda & Civil",
     tagClass: "tag-eco",
-    image: "https://plus.unsplash.com/premium_photo-1769089328470-f481a9f97f2b?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1521467752200-3bccf80f16ed?auto=format&fit=crop&w=800&q=80",
     color: "Blanco Puro / Marfil Nupcial",
     style: "Civil Romántico",
     fabric: "Encaje chantilly sobre base de crepé elastizado con manga francesa",
     measurements: "Busto: 86-90cm | Cintura: 66-70cm | Largo midi (120cm)",
-    description: "El favorito de las novias de Puerto Iguazú para la ceremonia civil o íntima. Espalda abotonada con perlas y encaje delicado que brinda elegancia sin ostentación."
+    description: "El favorito de las novias de Puerto Iguazú para la ceremonia civil o íntima. Espalda abotonada con perlas y fino encaje blanco que brinda elegancia sin ostentación."
   },
   {
     id: 26,
@@ -497,12 +497,12 @@ const PRODUCTS_DATA = [
     retailPrice: 215000,
     tag: "Nuevo Ingreso",
     tagClass: "",
-    image: "https://images.unsplash.com/photo-1732711535703-ef5cc7440d6c?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1732711535764-d7c22fb79cce?auto=format&fit=crop&w=800&q=80",
     color: "Rojo Escarlata Intenso",
     style: "Cóctel Vanguardista",
     fabric: "Crepé georgette elastizado con capa asimétrica al hombro",
     measurements: "Busto: 88-93cm | Cintura: 70-74cm | Pantalón recto tiro alto",
-    description: "Enterito sastrero de una sola manga con caída de capa. Cómodo, llamativo y sofisticado para recepciones de bodas diurnas, bautismos de gala o cócteles de fin de año."
+    description: "Enterito sastrero rojo escarlata de una sola manga con caída de capa. Cómodo, llamativo y sofisticado para recepciones de bodas diurnas, bautismos de gala o cócteles de fin de año."
   }
 ];
 
@@ -521,8 +521,8 @@ let currentGradSubfilter = null; // 'vestidos' o 'trajes'
 let cart = JSON.parse(localStorage.getItem("dressloop_cart")) || [];
 let favorites = JSON.parse(localStorage.getItem("dressloop_favorites")) || [];
 
-// WhatsApp de DreesLoop Puerto Iguazú
-const IGUAZU_PHONE = "5493757448899";
+// WhatsApp de DreesLoop Puerto Iguazú (Dueña / Atelier)
+const IGUAZU_PHONE = "5493757511855";
 
 // ==========================================================================
 // 3. SELECTORES DEL DOM
@@ -2038,12 +2038,12 @@ const FITTING_SKIN_TONES = {
     harmonyScore: "98% Armonía Óptima de Color",
     models: {
       1: "https://images.unsplash.com/photo-1765229292033-ea9f376cc164?auto=format&fit=crop&w=800&q=80",
-      2: "https://images.unsplash.com/photo-1775871436595-8f89ee46b610?auto=format&fit=crop&w=800&q=80",
-      3: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+      2: "https://images.unsplash.com/photo-1776142749959-988d3543a8f5?auto=format&fit=crop&w=800&q=80",
+      3: "https://images.unsplash.com/photo-1765870972598-1c9c6af7dbf3?auto=format&fit=crop&w=800&q=80",
       4: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80",
       5: "https://images.unsplash.com/photo-1673610178158-1c4c5b7e4d98?auto=format&fit=crop&w=800&q=80",
-      6: "https://images.unsplash.com/photo-1774542872391-bfaf032fbb31?auto=format&fit=crop&w=800&q=80",
-      7: "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80",
+      6: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+      7: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80",
       8: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
     },
     makeups: {
@@ -2088,12 +2088,12 @@ const FITTING_SKIN_TONES = {
     harmonyScore: "99% Combinación Sunkissed Perfecta",
     models: {
       1: "https://images.unsplash.com/photo-1765229292033-ea9f376cc164?auto=format&fit=crop&w=800&q=80",
-      2: "https://images.unsplash.com/photo-1775871436595-8f89ee46b610?auto=format&fit=crop&w=800&q=80",
-      3: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+      2: "https://images.unsplash.com/photo-1776142749959-988d3543a8f5?auto=format&fit=crop&w=800&q=80",
+      3: "https://images.unsplash.com/photo-1765870972598-1c9c6af7dbf3?auto=format&fit=crop&w=800&q=80",
       4: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80",
       5: "https://images.unsplash.com/photo-1673610178158-1c4c5b7e4d98?auto=format&fit=crop&w=800&q=80",
-      6: "https://images.unsplash.com/photo-1774542872391-bfaf032fbb31?auto=format&fit=crop&w=800&q=80",
-      7: "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80",
+      6: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+      7: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80",
       8: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
     },
     makeups: {
@@ -2138,12 +2138,12 @@ const FITTING_SKIN_TONES = {
     harmonyScore: "99% Armonía de Alto Contraste",
     models: {
       1: "https://images.unsplash.com/photo-1765229292033-ea9f376cc164?auto=format&fit=crop&w=800&q=80",
-      2: "https://images.unsplash.com/photo-1775871436595-8f89ee46b610?auto=format&fit=crop&w=800&q=80",
-      3: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+      2: "https://images.unsplash.com/photo-1776142749959-988d3543a8f5?auto=format&fit=crop&w=800&q=80",
+      3: "https://images.unsplash.com/photo-1765870972598-1c9c6af7dbf3?auto=format&fit=crop&w=800&q=80",
       4: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=800&q=80",
       5: "https://images.unsplash.com/photo-1673610178158-1c4c5b7e4d98?auto=format&fit=crop&w=800&q=80",
-      6: "https://images.unsplash.com/photo-1774542872391-bfaf032fbb31?auto=format&fit=crop&w=800&q=80",
-      7: "https://images.unsplash.com/photo-1502716119720-b23a93e5fe1b?auto=format&fit=crop&w=800&q=80",
+      6: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=800&q=80",
+      7: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=800&q=80",
       8: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80"
     },
     makeups: {
@@ -2182,10 +2182,11 @@ const FITTING_SKIN_TONES = {
 };
 
 /* ==========================================================================
-   PROBADOR VIRTUAL CLUETRONIC '95 • CHER'S WARDROBE OS
+   PROBADOR VIRTUAL CLUETRONIC '95 • CHER'S WARDROBE OS (DAMAS & CABALLEROS)
    Motor de Armonía de Color, Carruseles y Efectos de la película Clueless (1995)
    ========================================================================== */
 
+// --- COLECCIÓN DAMAS / MUJERES ---
 const CLUELESS_TOPS = [
   {
     id: "top_tartan",
@@ -2342,12 +2343,204 @@ const FITTING_MAKEUPS_DATA = [
   { id: "m4", name: "Vintage Hollywood Red", price: 32000, icon: "💋" }
 ];
 
-let cluelessMode = "mix"; // 'mix' or 'gown'
+// --- COLECCIÓN CABALLEROS / HOMBRES ---
+const CLUELESS_MEN_TOPS = [
+  {
+    id: "top_m_navy",
+    name: "Blazer Slim Midnight Navy Solapa Raso",
+    category: "blazer",
+    price: 22000,
+    color: "#141E30",
+    colorName: "Azul Midnight Navy",
+    harmonyWith: ["bot_m_navy", "bot_m_black", "bot_m_ivory"],
+    clashWith: ["bot_m_camel"],
+    img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "top_m_black",
+    name: "Saco Smoking Black Tie Solapa Chal",
+    category: "smoking",
+    price: 25000,
+    color: "#0B0B0C",
+    colorName: "Negro Black Tie",
+    harmonyWith: ["bot_m_black", "bot_m_navy"],
+    clashWith: ["bot_m_camel", "bot_m_ivory"],
+    img: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "top_m_ivory",
+    name: "Blazer Milano Ivory Ceremonia & Gala",
+    category: "blazer",
+    price: 23500,
+    color: "#EAE5DA",
+    colorName: "Blanco Marfil / Ivory",
+    harmonyWith: ["bot_m_black", "bot_m_navy", "bot_m_ivory", "bot_m_camel"],
+    clashWith: [],
+    img: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "top_m_chaleco",
+    name: "Chaleco Sastrero Gris & Camisa Cuello Francés",
+    category: "chaleco",
+    price: 18500,
+    color: "#A8A8A8",
+    colorName: "Gris Perla Sastrero",
+    harmonyWith: ["bot_m_black", "bot_m_navy", "bot_m_ivory"],
+    clashWith: ["bot_m_camel"],
+    img: "https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "top_m_camel",
+    name: "Blazer Egresados Camel Tostado & Pañuelo",
+    category: "blazer",
+    price: 21000,
+    color: "#B38656",
+    colorName: "Camel Tostado",
+    harmonyWith: ["bot_m_camel", "bot_m_black", "bot_m_navy"],
+    clashWith: [],
+    img: "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "top_m_vino",
+    name: "Saco Velvet Borgoña Royal Edición Gala",
+    category: "smoking",
+    price: 24000,
+    color: "#5A1224",
+    colorName: "Borgoña Velvet",
+    harmonyWith: ["bot_m_black", "bot_m_navy"],
+    clashWith: ["bot_m_camel", "bot_m_ivory"],
+    img: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?auto=format&fit=crop&w=600&q=80"
+  }
+];
+
+const CLUELESS_MEN_BOTTOMS = [
+  {
+    id: "bot_m_navy",
+    name: "Pantalón Sastrero Slim Midnight Navy",
+    category: "pantalon",
+    price: 17500,
+    color: "#141E30",
+    colorName: "Azul Midnight Navy",
+    harmonyWith: ["top_m_navy", "top_m_black", "top_m_ivory", "top_m_chaleco", "top_m_camel", "top_m_vino"],
+    clashWith: [],
+    img: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "bot_m_black",
+    name: "Pantalón Smoking Black Tie con Galón Raso",
+    category: "pantalon",
+    price: 18500,
+    color: "#0B0B0C",
+    colorName: "Negro Black Tie",
+    harmonyWith: ["top_m_black", "top_m_navy", "top_m_ivory", "top_m_chaleco", "top_m_vino", "top_m_camel"],
+    clashWith: [],
+    img: "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "bot_m_ivory",
+    name: "Pantalón Sastrero Milano Ivory",
+    category: "pantalon",
+    price: 17500,
+    color: "#EAE5DA",
+    colorName: "Blanco Marfil / Ivory",
+    harmonyWith: ["top_m_ivory", "top_m_navy", "top_m_chaleco"],
+    clashWith: ["top_m_black", "top_m_vino"],
+    img: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: "bot_m_camel",
+    name: "Pantalón Tostado Camel Egresados",
+    category: "pantalon",
+    price: 16500,
+    color: "#B38656",
+    colorName: "Camel Tostado",
+    harmonyWith: ["top_m_camel", "top_m_ivory", "top_m_navy"],
+    clashWith: ["top_m_black", "top_m_vino"],
+    img: "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?auto=format&fit=crop&w=600&q=80"
+  }
+];
+
+const CLUELESS_MEN_SUITS = [
+  { id: 1, name: "Traje Slim Midnight Navy Completo", price: 36000, color: "#141E30", icon: "👔", bestGrooming: ["gh1", "gh2", "gh4"] },
+  { id: 2, name: "Smoking Gala Black Tie Solapa Chal", price: 42000, color: "#0B0B0C", icon: "🎩", bestGrooming: ["gh4", "gh1"] },
+  { id: 3, name: "Traje Sastrero Milano Ivory Ceremonia", price: 39000, color: "#EAE5DA", icon: "👔", bestGrooming: ["gh2", "gh3", "gh4"] },
+  { id: 4, name: "Traje Colación Camel Tostado & Chaleco", price: 34000, color: "#B38656", icon: "👔", bestGrooming: ["gh3", "gh1"] },
+  { id: 5, name: "Smoking Velvet Borgoña Imperial", price: 44000, color: "#5A1224", icon: "🎩", bestGrooming: ["gh4", "gh2"] }
+];
+
+const FITTING_MEN_GROOMING_DATA = [
+  { id: "gh1", name: "Barba Perfilada & Piel Mate HD", price: 18000, icon: "🧔", promoPrice: 10800, img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80" },
+  { id: "gh2", name: "Peinado Pompadour & Texturizado Gala", price: 16000, icon: "✂️", promoPrice: 9600, img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" },
+  { id: "gh3", name: "Estilismo Egresado Anti-Brillo", price: 15000, icon: "🎓", promoPrice: 9000, img: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80" },
+  { id: "gh4", name: "Total Grooming Black Tie (Barba + Peinado + Piel)", price: 24000, icon: "🎩", promoPrice: 14400, img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" }
+];
+
+const MEN_SKIN_MODELS = {
+  clara: {
+    name: "Piel Clara / Porcelana",
+    suits: {
+      1: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+      2: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80",
+      3: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+      4: "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=800&q=80",
+      5: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?auto=format&fit=crop&w=800&q=80"
+    },
+    grooming: {
+      gh1: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+      gh2: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      gh3: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
+      gh4: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=400&q=80"
+    },
+    advice: "Para <strong>Piel Clara masculina</strong>: El contraste con trajes Midnight Navy y solapas de raso realza una compostura aristocrática. El grooming mate elimina reflejos de flash en fotografías."
+  },
+  triguena: {
+    name: "Piel Trigueña / Cálida",
+    suits: {
+      1: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+      2: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80",
+      3: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+      4: "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=800&q=80",
+      5: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?auto=format&fit=crop&w=800&q=80"
+    },
+    grooming: {
+      gh1: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=400&q=80",
+      gh2: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      gh3: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
+      gh4: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=400&q=80"
+    },
+    advice: "Para <strong>Piel Trigueña masculina</strong>: Los trajes en tonos marfil, camel tostado y negro tuxedo destacan con un porte moderno y distinguido. El perfilado de barba otorga líneas limpias y definidas."
+  },
+  morena: {
+    name: "Piel Morena / Profunda",
+    suits: {
+      1: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+      2: "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=800&q=80",
+      3: "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=format&fit=crop&w=800&q=80",
+      4: "https://images.unsplash.com/photo-1598808503746-f34c53b9323e?auto=format&fit=crop&w=800&q=80",
+      5: "https://images.unsplash.com/photo-1505022610485-0249ba5b3675?auto=format&fit=crop&w=800&q=80"
+    },
+    grooming: {
+      gh1: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80",
+      gh2: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+      gh3: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=400&q=80",
+      gh4: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80"
+    },
+    advice: "Para <strong>Piel Morena masculina</strong>: El blanco roto Milano Ivory y el smoking Black Tie generan un contraste electrizante de máxima gala. El acabado mate en piel realza una textura perfecta."
+  }
+};
+
+// Variables de Estado Clueless
+let cluelessGender = "mujeres"; // 'mujeres' | 'hombres'
+let cluelessMode = "mix"; // 'mix' | 'gown'
 let currentTopIdx = 0;
 let currentBottomIdx = 0;
 let currentGownIdx = 0;
+let currentMenTopIdx = 0;
+let currentMenBottomIdx = 0;
+let currentMenSuitIdx = 0;
 let currentFittingTone = "clara";
 let currentFittingMakeupId = "m1";
+let currentMenGroomingId = "gh1";
 let cluelessSoundEnabled = true;
 let cluelessAudioCtx = null;
 const PROMO_TOTAL_LOOK_DISCOUNT_PCT = 0.40;
@@ -2363,7 +2556,6 @@ function playCluelessSound(type) {
 
     const now = cluelessAudioCtx.currentTime;
     if (type === "match") {
-      // Chime alegre ascendente Do - Mi - Sol (C5 - E5 - G5)
       const freqs = [523.25, 659.25, 783.99];
       freqs.forEach((freq, idx) => {
         const osc = cluelessAudioCtx.createOscillator();
@@ -2378,7 +2570,6 @@ function playCluelessSound(type) {
         osc.stop(now + idx * 0.09 + 0.32);
       });
     } else if (type === "mismatch") {
-      // Buzzer suave descendente 90s Eb3 -> C3
       const freqs = [311.13, 261.63];
       freqs.forEach((freq, idx) => {
         const osc = cluelessAudioCtx.createOscillator();
@@ -2418,7 +2609,89 @@ window.toggleCluelessSound = function() {
     icon.textContent = cluelessSoundEnabled ? "🔊" : "🔇";
     label.textContent = cluelessSoundEnabled ? "FX: ON" : "FX: OFF";
   }
-  showToast(cluelessSoundEnabled ? "🔊 Sonido de Probador Clueless activado" : "🔇 Sonido de Probador Clueless silenciado");
+  showToast(cluelessSoundEnabled ? "🔊 Sonido de Probador activado" : "🔇 Sonido de Probador silenciado");
+};
+
+// Cambio de Género: Damas (Mujeres) vs Caballeros (Hombres)
+window.setCluelessGender = function(gender) {
+  cluelessGender = gender;
+
+  const btnW = document.getElementById("genderBtnMujeres");
+  const btnM = document.getElementById("genderBtnHombres");
+  if (btnW && btnM) {
+    btnW.classList.toggle("active", gender === "mujeres");
+    btnM.classList.toggle("active", gender === "hombres");
+  }
+
+  // Modificar etiquetas de la barra de modos
+  const labelMix = document.getElementById("btnModeMixLabel");
+  const labelGown = document.getElementById("btnModeGownLabel");
+  if (labelMix && labelGown) {
+    if (gender === "mujeres") {
+      labelMix.textContent = "👚 Mix & Match (Tops & Faldas)";
+      labelGown.textContent = "👗 Vestidos de Gala & Colación";
+    } else {
+      labelMix.textContent = "👔 Mix & Match (Blazers & Pantalones)";
+      labelGown.textContent = "🎩 Trajes & Smokings Completos";
+    }
+  }
+
+  // Modificar etiquetas de las ranuras del monitor
+  const slotTop = document.getElementById("cluelessSlotTopBadge");
+  const slotBot = document.getElementById("cluelessSlotBottomBadge");
+  const slotFull = document.getElementById("cluelessSlotFullBadge");
+  if (slotTop && slotBot && slotFull) {
+    if (gender === "mujeres") {
+      slotTop.textContent = "PRENDA SUPERIOR";
+      slotBot.textContent = "PRENDA INFERIOR";
+      slotFull.textContent = "VESTIDO DE GALA COMPLETO";
+    } else {
+      slotTop.textContent = "SACO / BLAZER MASCULINO";
+      slotBot.textContent = "PANTALÓN SASTRERO";
+      slotFull.textContent = "TRAJE / SMOKING COMPLETO";
+    }
+  }
+
+  // Modificar Paso 2: Maquillaje vs Grooming
+  const step2Title = document.getElementById("cluelessStep2Title");
+  const step2Desc = document.getElementById("cluelessStep2Desc");
+  const gridW = document.getElementById("cluelessMakeupGridWomen");
+  const gridM = document.getElementById("cluelessGroomingGridMen");
+
+  if (step2Title && step2Desc) {
+    if (gender === "mujeres") {
+      step2Title.textContent = "Estilo de Maquillaje Profesional";
+      step2Desc.innerHTML = 'Incluido en la Promo Total Look con <strong>40% OFF</strong>:';
+      if (gridW) gridW.style.display = "grid";
+      if (gridM) gridM.style.display = "none";
+    } else {
+      step2Title.textContent = "Grooming & Estilismo Masculino";
+      step2Desc.innerHTML = 'Perfilado, peinado y acabado mate con <strong>40% OFF</strong>:';
+      if (gridW) gridW.style.display = "none";
+      if (gridM) gridM.style.display = "grid";
+    }
+  }
+
+  // Modificar Título de Asesoría
+  const advTitle = document.getElementById("cluelessAdvisorTitle");
+  if (advTitle) {
+    advTitle.textContent = gender === "mujeres"
+      ? "CHER'S COLORIMETRY ADVICE (DREESLOOP ATELIER):"
+      : "GENTLEMAN'S TAILORING ADVICE (DREESLOOP ATELIER):";
+  }
+
+  // Modificar etiquetas de descuento en el resumen
+  const discTag = document.getElementById("summaryDiscountTag");
+  const discLabel = document.getElementById("summaryDiscountLabel");
+  if (discTag && discLabel) {
+    discTag.textContent = gender === "mujeres" ? "40% OFF en Maquillaje" : "40% OFF en Grooming";
+    discLabel.textContent = gender === "mujeres"
+      ? "🎁 Bonificación Promo Total Look (40% OFF Maquillaje)"
+      : "🎁 Bonificación Promo Total Look (40% OFF Grooming)";
+  }
+
+  updateCluelessView();
+  showToast(gender === "mujeres" ? "👩 Colección Damas / Mujeres activada" : "👨 Colección Caballeros / Hombres activada");
 };
 
 window.setCluelessMode = function(mode) {
@@ -2444,12 +2717,22 @@ window.setCluelessMode = function(mode) {
 };
 
 window.browseCluelessPart = function(part, dir) {
-  if (part === "top") {
-    currentTopIdx = (currentTopIdx + dir + CLUELESS_TOPS.length) % CLUELESS_TOPS.length;
-  } else if (part === "bottom") {
-    currentBottomIdx = (currentBottomIdx + dir + CLUELESS_BOTTOMS.length) % CLUELESS_BOTTOMS.length;
-  } else if (part === "gown") {
-    currentGownIdx = (currentGownIdx + dir + CLUELESS_GOWNS.length) % CLUELESS_GOWNS.length;
+  if (cluelessGender === "mujeres") {
+    if (part === "top") {
+      currentTopIdx = (currentTopIdx + dir + CLUELESS_TOPS.length) % CLUELESS_TOPS.length;
+    } else if (part === "bottom") {
+      currentBottomIdx = (currentBottomIdx + dir + CLUELESS_BOTTOMS.length) % CLUELESS_BOTTOMS.length;
+    } else if (part === "gown") {
+      currentGownIdx = (currentGownIdx + dir + CLUELESS_GOWNS.length) % CLUELESS_GOWNS.length;
+    }
+  } else {
+    if (part === "top") {
+      currentMenTopIdx = (currentMenTopIdx + dir + CLUELESS_MEN_TOPS.length) % CLUELESS_MEN_TOPS.length;
+    } else if (part === "bottom") {
+      currentMenBottomIdx = (currentMenBottomIdx + dir + CLUELESS_MEN_BOTTOMS.length) % CLUELESS_MEN_BOTTOMS.length;
+    } else if (part === "gown") {
+      currentMenSuitIdx = (currentMenSuitIdx + dir + CLUELESS_MEN_SUITS.length) % CLUELESS_MEN_SUITS.length;
+    }
   }
   updateCluelessView();
 };
@@ -2457,31 +2740,51 @@ window.browseCluelessPart = function(part, dir) {
 window.shuffleCluelessOutfit = function() {
   playCluelessSound("shuffle");
 
-  if (cluelessMode === "mix") {
-    // Escoger una combinación armoniosa al azar
-    const randomTopIdx = Math.floor(Math.random() * CLUELESS_TOPS.length);
-    const top = CLUELESS_TOPS[randomTopIdx];
-    // Elegir un bottom que armonice con este top
-    const matchingBottoms = CLUELESS_BOTTOMS.filter((b) => top.harmonyWith.includes(b.id));
-    const chosenBottom = matchingBottoms.length > 0
-      ? matchingBottoms[Math.floor(Math.random() * matchingBottoms.length)]
-      : CLUELESS_BOTTOMS[0];
+  if (cluelessGender === "mujeres") {
+    if (cluelessMode === "mix") {
+      const randomTopIdx = Math.floor(Math.random() * CLUELESS_TOPS.length);
+      const top = CLUELESS_TOPS[randomTopIdx];
+      const matchingBottoms = CLUELESS_BOTTOMS.filter((b) => top.harmonyWith.includes(b.id));
+      const chosenBottom = matchingBottoms.length > 0
+        ? matchingBottoms[Math.floor(Math.random() * matchingBottoms.length)]
+        : CLUELESS_BOTTOMS[0];
 
-    currentTopIdx = randomTopIdx;
-    currentBottomIdx = CLUELESS_BOTTOMS.findIndex((b) => b.id === chosenBottom.id);
+      currentTopIdx = randomTopIdx;
+      currentBottomIdx = CLUELESS_BOTTOMS.findIndex((b) => b.id === chosenBottom.id);
+    } else {
+      currentGownIdx = Math.floor(Math.random() * CLUELESS_GOWNS.length);
+    }
+
+    const randomMakeup = FITTING_MAKEUPS_DATA[Math.floor(Math.random() * FITTING_MAKEUPS_DATA.length)];
+    currentFittingMakeupId = randomMakeup.id;
+    document.querySelectorAll("#cluelessMakeupGridWomen .clueless-mu-card").forEach((card) => {
+      card.classList.toggle("active", card.getAttribute("data-id") === currentFittingMakeupId);
+    });
+    showToast("✨ ¡DRESS ME! Cher encontró un look femenino soñado para ti ✨");
   } else {
-    currentGownIdx = Math.floor(Math.random() * CLUELESS_GOWNS.length);
+    if (cluelessMode === "mix") {
+      const randomTopIdx = Math.floor(Math.random() * CLUELESS_MEN_TOPS.length);
+      const top = CLUELESS_MEN_TOPS[randomTopIdx];
+      const matchingBottoms = CLUELESS_MEN_BOTTOMS.filter((b) => top.harmonyWith.includes(b.id));
+      const chosenBottom = matchingBottoms.length > 0
+        ? matchingBottoms[Math.floor(Math.random() * matchingBottoms.length)]
+        : CLUELESS_MEN_BOTTOMS[0];
+
+      currentMenTopIdx = randomTopIdx;
+      currentMenBottomIdx = CLUELESS_MEN_BOTTOMS.findIndex((b) => b.id === chosenBottom.id);
+    } else {
+      currentMenSuitIdx = Math.floor(Math.random() * CLUELESS_MEN_SUITS.length);
+    }
+
+    const randomGroom = FITTING_MEN_GROOMING_DATA[Math.floor(Math.random() * FITTING_MEN_GROOMING_DATA.length)];
+    currentMenGroomingId = randomGroom.id;
+    document.querySelectorAll("#cluelessGroomingGridMen .clueless-mu-card").forEach((card) => {
+      card.classList.toggle("active", card.getAttribute("data-id") === currentMenGroomingId);
+    });
+    showToast("🎩 ¡DAPPER LOOK! Combinación masculina sastrera lista ✨");
   }
 
-  // Selección de maquillaje al azar
-  const randomMakeup = FITTING_MAKEUPS_DATA[Math.floor(Math.random() * FITTING_MAKEUPS_DATA.length)];
-  currentFittingMakeupId = randomMakeup.id;
-  document.querySelectorAll(".clueless-mu-card").forEach((card) => {
-    card.classList.toggle("active", card.getAttribute("data-id") === currentFittingMakeupId);
-  });
-
   updateCluelessView();
-  showToast("✨ ¡DRESS ME! Cher Horowitz encontró un look divino para ti ✨");
 };
 
 window.selectSkinTone = function(toneId, btn) {
@@ -2505,15 +2808,34 @@ window.selectSkinTone = function(toneId, btn) {
     if (m4Img && toneData.makeups.m4) m4Img.src = toneData.makeups.m4.img;
   }
 
+  // Actualizar miniaturas masculinas de grooming
+  const menToneData = MEN_SKIN_MODELS[toneId];
+  if (menToneData && menToneData.grooming) {
+    const gh1Img = document.getElementById("chipImgGH1");
+    const gh2Img = document.getElementById("chipImgGH2");
+    const gh3Img = document.getElementById("chipImgGH3");
+    const gh4Img = document.getElementById("chipImgGH4");
+    if (gh1Img && menToneData.grooming.gh1) gh1Img.src = menToneData.grooming.gh1;
+    if (gh2Img && menToneData.grooming.gh2) gh2Img.src = menToneData.grooming.gh2;
+    if (gh3Img && menToneData.grooming.gh3) gh3Img.src = menToneData.grooming.gh3;
+    if (gh4Img && menToneData.grooming.gh4) gh4Img.src = menToneData.grooming.gh4;
+  }
+
   updateCluelessView();
 };
 
-window.selectFittingMakeup = function(makeupId, btn) {
-  currentFittingMakeupId = makeupId;
-
-  document.querySelectorAll(".clueless-mu-card").forEach((chip) => {
-    chip.classList.remove("active");
-  });
+window.selectFittingMakeup = function(id, btn) {
+  if (cluelessGender === "mujeres") {
+    currentFittingMakeupId = id;
+    document.querySelectorAll("#cluelessMakeupGridWomen .clueless-mu-card").forEach((chip) => {
+      chip.classList.remove("active");
+    });
+  } else {
+    currentMenGroomingId = id;
+    document.querySelectorAll("#cluelessGroomingGridMen .clueless-mu-card").forEach((chip) => {
+      chip.classList.remove("active");
+    });
+  }
   if (btn) btn.classList.add("active");
 
   updateCluelessView();
@@ -2532,104 +2854,171 @@ window.setMirrorLighting = function(mode) {
 
 window.updateCluelessView = function() {
   const toneData = FITTING_SKIN_TONES[currentFittingTone] || FITTING_SKIN_TONES["clara"];
-  const makeup = FITTING_MAKEUPS_DATA.find((m) => m.id === currentFittingMakeupId) || FITTING_MAKEUPS_DATA[0];
-  const toneMakeup = toneData.makeups[currentFittingMakeupId] || toneData.makeups["m1"];
-
-  // 1. Actualizar burbuja flotante de maquillaje / rostro
-  const faceImg = document.getElementById("cluelessMakeupFaceImg");
-  if (faceImg && toneMakeup) {
-    faceImg.src = toneMakeup.img;
-    faceImg.alt = `${makeup.name} para ${toneData.name}`;
-  }
-  const bubbleName = document.getElementById("cluelessMakeupBubbleName");
-  if (bubbleName) bubbleName.textContent = `💄 ${makeup.name}`;
-
-  const bubbleTone = document.getElementById("cluelessMakeupBubbleTone");
-  if (bubbleTone) bubbleTone.textContent = toneData.name;
+  const menToneData = MEN_SKIN_MODELS[currentFittingTone] || MEN_SKIN_MODELS["clara"];
 
   let isMatch = true;
   let matchTitle = "MATCH!";
   let matchQuote = "";
   let piecesTitle = "";
+  let serviceTitle = "";
   let outfitPrice = 0;
+  let servicePrice = 0;
   let paletteColors = [];
 
-  if (cluelessMode === "mix") {
-    const top = CLUELESS_TOPS[currentTopIdx];
-    const bottom = CLUELESS_BOTTOMS[currentBottomIdx];
-    outfitPrice = top.price + bottom.price;
-    piecesTitle = `${top.name} + ${bottom.name}`;
+  const faceImg = document.getElementById("cluelessMakeupFaceImg");
+  const bubbleName = document.getElementById("cluelessMakeupBubbleName");
+  const bubbleTone = document.getElementById("cluelessMakeupBubbleTone");
 
-    // Actualizar Prenda Superior
-    const topImg = document.getElementById("cluelessTopImg");
-    if (topImg) {
-      topImg.src = top.img;
-      topImg.alt = top.name;
+  if (cluelessGender === "mujeres") {
+    // --- LÓGICA MUJERES ---
+    const makeup = FITTING_MAKEUPS_DATA.find((m) => m.id === currentFittingMakeupId) || FITTING_MAKEUPS_DATA[0];
+    const toneMakeup = toneData.makeups[currentFittingMakeupId] || toneData.makeups["m1"];
+    serviceTitle = makeup.name;
+    servicePrice = makeup.price;
+
+    if (faceImg && toneMakeup) {
+      faceImg.src = toneMakeup.img;
+      faceImg.alt = `${makeup.name} para ${toneData.name}`;
     }
-    const topName = document.getElementById("cluelessTopName");
-    if (topName) topName.textContent = top.name;
-    const topPrice = document.getElementById("cluelessTopPrice");
-    if (topPrice) topPrice.textContent = formatPrice(top.price);
+    if (bubbleName) bubbleName.textContent = `💄 ${makeup.name}`;
+    if (bubbleTone) bubbleTone.textContent = toneData.name;
 
-    // Actualizar Prenda Inferior
-    const bottomImg = document.getElementById("cluelessBottomImg");
-    if (bottomImg) {
-      bottomImg.src = bottom.img;
-      bottomImg.alt = bottom.name;
-    }
-    const bottomName = document.getElementById("cluelessBottomName");
-    if (bottomName) bottomName.textContent = bottom.name;
-    const bottomPrice = document.getElementById("cluelessBottomPrice");
-    if (bottomPrice) bottomPrice.textContent = formatPrice(bottom.price);
+    if (cluelessMode === "mix") {
+      const top = CLUELESS_TOPS[currentTopIdx];
+      const bottom = CLUELESS_BOTTOMS[currentBottomIdx];
+      outfitPrice = top.price + bottom.price;
+      piecesTitle = `${top.name} + ${bottom.name}`;
 
-    // Evaluar MATCH vs MIS-MATCH de Cher
-    const harmonious = top.harmonyWith.includes(bottom.id);
-    const clashing = (top.clashWith && top.clashWith.includes(bottom.id)) || (bottom.clashWith && bottom.clashWith.includes(top.id));
+      const topImg = document.getElementById("cluelessTopImg");
+      if (topImg) { topImg.src = top.img; topImg.alt = top.name; }
+      const topName = document.getElementById("cluelessTopName");
+      if (topName) topName.textContent = top.name;
+      const topPrice = document.getElementById("cluelessTopPrice");
+      if (topPrice) topPrice.textContent = formatPrice(top.price);
 
-    if (harmonious && !clashing) {
-      isMatch = true;
-      matchTitle = "MATCH!";
-      if (top.id === "top_tartan" && bottom.id === "bot_tartan") {
-        matchQuote = `"¡Totally Buggin'! ¡Es el icónico Total Look Tartan Clueless! Armonía 100% de alta costura para tu tono de piel."`;
+      const bottomImg = document.getElementById("cluelessBottomImg");
+      if (bottomImg) { bottomImg.src = bottom.img; bottomImg.alt = bottom.name; }
+      const bottomName = document.getElementById("cluelessBottomName");
+      if (bottomName) bottomName.textContent = bottom.name;
+      const bottomPrice = document.getElementById("cluelessBottomPrice");
+      if (bottomPrice) bottomPrice.textContent = formatPrice(bottom.price);
+
+      const harmonious = top.harmonyWith.includes(bottom.id);
+      const clashing = (top.clashWith && top.clashWith.includes(bottom.id)) || (bottom.clashWith && bottom.clashWith.includes(top.id));
+
+      if (harmonious && !clashing) {
+        isMatch = true;
+        matchTitle = "MATCH!";
+        if (top.id === "top_tartan" && bottom.id === "bot_tartan") {
+          matchQuote = `"¡Totally Buggin'! ¡Es el icónico Total Look Tartan Clueless! Armonía 100% de alta costura para tu tono de piel."`;
+        } else {
+          matchQuote = `"¡It's a MATCH! Cher aprobaría este look. Los tonos ${top.colorName} y ${bottom.colorName} armonizan a la perfección con tu tez."`;
+        }
       } else {
-        matchQuote = `"¡It's a MATCH! Cher aprobaría este look. Los tonos ${top.colorName} y ${bottom.colorName} armonizan a la perfección con tu tez."`;
+        isMatch = false;
+        matchTitle = "MIS-MATCH!";
+        matchQuote = `"¡Ugh, As If! Esta combinación desentona por contraste de paleta. Haz clic en las flechas para encontrar el match ideal."`;
       }
-    } else {
-      isMatch = false;
-      matchTitle = "MIS-MATCH!";
-      matchQuote = `"¡Ugh, As If! Esta combinación desentona por contraste de paleta. Haz clic en las flechas para encontrar el match ideal."`;
-    }
 
-    paletteColors = [top.color, bottom.color, toneMakeup.palette ? toneMakeup.palette[2] : "#F3D9C9", toneMakeup.palette ? toneMakeup.palette[3] : "#892839"];
+      paletteColors = [top.color, bottom.color, toneMakeup.palette ? toneMakeup.palette[2] : "#F3D9C9", toneMakeup.palette ? toneMakeup.palette[3] : "#892839"];
+    } else {
+      const gown = CLUELESS_GOWNS[currentGownIdx];
+      outfitPrice = gown.price;
+      piecesTitle = gown.name;
+
+      const gownImg = document.getElementById("cluelessGownImg");
+      if (gownImg) {
+        const newSrc = toneData.models[gown.id] || toneData.models[1];
+        gownImg.src = newSrc;
+        gownImg.alt = `${gown.name} en ${toneData.name}`;
+      }
+      const gownName = document.getElementById("cluelessGownName");
+      if (gownName) gownName.textContent = gown.name;
+      const gownPrice = document.getElementById("cluelessGownPrice");
+      if (gownPrice) gownPrice.textContent = formatPrice(gown.price);
+
+      if (gown.clashMakeup && gown.clashMakeup.includes(currentFittingMakeupId)) {
+        isMatch = false;
+        matchTitle = "MIS-MATCH!";
+        matchQuote = `"¡Mis-Match de Maquillaje! El labial o sombra compite con la riqueza del vestido. ¡Prueba otro estilo!"`;
+      } else {
+        isMatch = true;
+        matchTitle = "MATCH!";
+        matchQuote = `"¡MATCH de Alta Costura! ${gown.name} y ${makeup.name} se complementan con un 100% de armonía visual."`;
+      }
+
+      paletteColors = [gown.color, toneMakeup.palette ? toneMakeup.palette[1] : "#2B2B2B", toneMakeup.palette ? toneMakeup.palette[2] : "#F3D9C9", toneMakeup.palette ? toneMakeup.palette[3] : "#892839"];
+    }
   } else {
-    // Modo Vestido de Gala
-    const gown = CLUELESS_GOWNS[currentGownIdx];
-    outfitPrice = gown.price;
-    piecesTitle = gown.name;
+    // --- LÓGICA HOMBRES ---
+    const groom = FITTING_MEN_GROOMING_DATA.find((g) => g.id === currentMenGroomingId) || FITTING_MEN_GROOMING_DATA[0];
+    serviceTitle = groom.name;
+    servicePrice = groom.price;
 
-    const gownImg = document.getElementById("cluelessGownImg");
-    if (gownImg) {
-      const newSrc = toneData.models[gown.id] || toneData.models[1];
-      gownImg.src = newSrc;
-      gownImg.alt = `${gown.name} en ${toneData.name}`;
+    if (faceImg) {
+      const groomImg = (menToneData.grooming && menToneData.grooming[currentMenGroomingId]) || groom.img;
+      faceImg.src = groomImg;
+      faceImg.alt = `${groom.name} para ${menToneData.name}`;
     }
-    const gownName = document.getElementById("cluelessGownName");
-    if (gownName) gownName.textContent = gown.name;
-    const gownPrice = document.getElementById("cluelessGownPrice");
-    if (gownPrice) gownPrice.textContent = formatPrice(gown.price);
+    if (bubbleName) bubbleName.textContent = `🧔 ${groom.name}`;
+    if (bubbleTone) bubbleTone.textContent = menToneData.name;
 
-    // Evaluar MATCH del vestido con el maquillaje
-    if (gown.clashMakeup && gown.clashMakeup.includes(currentFittingMakeupId)) {
-      isMatch = false;
-      matchTitle = "MIS-MATCH!";
-      matchQuote = `"¡Mis-Match de Maquillaje! El labial o sombra de este estilo compite con la riqueza del vestido. ¡Prueba otro maquillaje!"`;
+    if (cluelessMode === "mix") {
+      const top = CLUELESS_MEN_TOPS[currentMenTopIdx];
+      const bottom = CLUELESS_MEN_BOTTOMS[currentMenBottomIdx];
+      outfitPrice = top.price + bottom.price;
+      piecesTitle = `${top.name} + ${bottom.name}`;
+
+      const topImg = document.getElementById("cluelessTopImg");
+      if (topImg) { topImg.src = top.img; topImg.alt = top.name; }
+      const topName = document.getElementById("cluelessTopName");
+      if (topName) topName.textContent = top.name;
+      const topPrice = document.getElementById("cluelessTopPrice");
+      if (topPrice) topPrice.textContent = formatPrice(top.price);
+
+      const bottomImg = document.getElementById("cluelessBottomImg");
+      if (bottomImg) { bottomImg.src = bottom.img; bottomImg.alt = bottom.name; }
+      const bottomName = document.getElementById("cluelessBottomName");
+      if (bottomName) bottomName.textContent = bottom.name;
+      const bottomPrice = document.getElementById("cluelessBottomPrice");
+      if (bottomPrice) bottomPrice.textContent = formatPrice(bottom.price);
+
+      const harmonious = top.harmonyWith.includes(bottom.id);
+      const clashing = (top.clashWith && top.clashWith.includes(bottom.id)) || (bottom.clashWith && bottom.clashWith.includes(top.id));
+
+      if (harmonious && !clashing) {
+        isMatch = true;
+        matchTitle = "MATCH!";
+        matchQuote = `"¡Distinción Sastrera Impecable! El corte de ${top.name} con ${bottom.name} proyecta un porte masculino sofisticado para galas."`;
+      } else {
+        isMatch = false;
+        matchTitle = "MIS-MATCH!";
+        matchQuote = `"¡Alerta de Estilo Sastrero! Este saco y pantalón desentonan en corte o paleta. Usa las flechas para un ensamble impecable."`;
+      }
+
+      paletteColors = [top.color, bottom.color, "#D9C5A5", "#1B1B1B"];
     } else {
+      const suit = CLUELESS_MEN_SUITS[currentMenSuitIdx];
+      outfitPrice = suit.price;
+      piecesTitle = suit.name;
+
+      const gownImg = document.getElementById("cluelessGownImg");
+      if (gownImg) {
+        const newSrc = (menToneData.suits && menToneData.suits[suit.id]) || suit.id;
+        gownImg.src = (menToneData.suits && menToneData.suits[suit.id]) ? menToneData.suits[suit.id] : "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80";
+        gownImg.alt = `${suit.name} para ${menToneData.name}`;
+      }
+      const gownName = document.getElementById("cluelessGownName");
+      if (gownName) gownName.textContent = suit.name;
+      const gownPrice = document.getElementById("cluelessGownPrice");
+      if (gownPrice) gownPrice.textContent = formatPrice(suit.price);
+
       isMatch = true;
       matchTitle = "MATCH!";
-      matchQuote = `"¡MATCH de Alta Costura! ${gown.name} y ${makeup.name} se complementan con un 100% de armonía visual."`;
-    }
+      matchQuote = `"¡Black Tie de Excelencia! ${suit.name} combinado con ${groom.name} garantiza presencia de gala en cualquier celebración."`;
 
-    paletteColors = [gown.color, toneMakeup.palette ? toneMakeup.palette[1] : "#2B2B2B", toneMakeup.palette ? toneMakeup.palette[2] : "#F3D9C9", toneMakeup.palette ? toneMakeup.palette[3] : "#892839"];
+      paletteColors = [suit.color, "#0A0A0A", "#EAE5DA", "#C79A4B"];
+    }
   }
 
   // 2. Actualizar el Cartel Neón MATCH! vs MIS-MATCH!
@@ -2645,31 +3034,41 @@ window.updateCluelessView = function() {
       <span class="sparkle-right">${isMatch ? "✨" : "❌"}</span>
     `;
     matchQuoteEl.textContent = matchQuote;
-
-    // Sonido interactivo de la película
     playCluelessSound(isMatch ? "match" : "mismatch");
   }
 
   // 3. Tiras de Estado y Asesoría
   const activeTonePill = document.getElementById("cluelessActiveTonePill");
-  if (activeTonePill) activeTonePill.textContent = toneData.tagLabel;
+  if (activeTonePill) {
+    activeTonePill.textContent = cluelessGender === "mujeres" ? toneData.tagLabel : `👔 ${menToneData.name}`;
+  }
 
   const activePiecesPill = document.getElementById("cluelessActivePiecesPill");
-  if (activePiecesPill) activePiecesPill.textContent = `👗 Look: ${piecesTitle}`;
+  if (activePiecesPill) {
+    activePiecesPill.textContent = `${cluelessGender === "mujeres" ? "👗" : "👔"} Look: ${piecesTitle}`;
+  }
 
   const activeMakeupPill = document.getElementById("cluelessActiveMakeupPill");
-  if (activeMakeupPill) activeMakeupPill.textContent = `💄 ${makeup.name}`;
+  if (activeMakeupPill) {
+    activeMakeupPill.textContent = `${cluelessGender === "mujeres" ? "💄" : "🧔"} ${serviceTitle}`;
+  }
 
   const adviceEl = document.getElementById("cluelessAdviceText");
   if (adviceEl) {
-    if (cluelessMode === "mix") {
-      const top = CLUELESS_TOPS[currentTopIdx];
-      const bottom = CLUELESS_BOTTOMS[currentBottomIdx];
-      adviceEl.innerHTML = `Para <strong>${toneData.name}</strong>: El ensamble de ${top.name} y ${bottom.name} junto al maquillaje ${makeup.name} proyecta un porte cosmopolita inspirado en el Hollywood de los años 90.`;
+    if (cluelessGender === "mujeres") {
+      if (cluelessMode === "mix") {
+        const top = CLUELESS_TOPS[currentTopIdx];
+        const bottom = CLUELESS_BOTTOMS[currentBottomIdx];
+        adviceEl.innerHTML = `Para <strong>${toneData.name}</strong>: El ensamble de ${top.name} y ${bottom.name} junto al maquillaje ${serviceTitle} proyecta un porte cosmopolita inspirado en los 90s.`;
+      } else {
+        const gown = CLUELESS_GOWNS[currentGownIdx];
+        if (toneData.advice && toneData.advice[gown.id]) {
+          adviceEl.innerHTML = toneData.advice[gown.id];
+        }
+      }
     } else {
-      const gown = CLUELESS_GOWNS[currentGownIdx];
-      if (toneData.advice && toneData.advice[gown.id]) {
-        adviceEl.innerHTML = toneData.advice[gown.id];
+      if (menToneData.advice) {
+        adviceEl.innerHTML = menToneData.advice;
       }
     }
   }
@@ -2678,14 +3077,14 @@ window.updateCluelessView = function() {
   const dotsContainer = document.getElementById("cluelessPaletteDots");
   if (dotsContainer && paletteColors.length >= 4) {
     dotsContainer.innerHTML = `
-      <span class="pal-dot" style="background: ${paletteColors[0]};" title="Prenda Superior / Vestido"></span>
-      <span class="pal-dot" style="background: ${paletteColors[1]};" title="Prenda Inferior / Sombra"></span>
-      <span class="pal-dot" style="background: ${paletteColors[2]};" title="Base: ${toneData.name}"></span>
-      <span class="pal-dot" style="background: ${paletteColors[3]};" title="Labial: ${makeup.name}"></span>
+      <span class="pal-dot" style="background: ${paletteColors[0]};" title="Prenda Superior / Saco"></span>
+      <span class="pal-dot" style="background: ${paletteColors[1]};" title="Prenda Inferior / Pantalón"></span>
+      <span class="pal-dot" style="background: ${paletteColors[2]};" title="Tez / Piel"></span>
+      <span class="pal-dot" style="background: ${paletteColors[3]};" title="Detalle / Solapa / Labial"></span>
     `;
   }
 
-  // 5. Resumen Financiero con Descuento Promo 40% OFF en Maquillaje
+  // 5. Resumen Financiero con Descuento Promo 40% OFF
   const summaryOutfitName = document.getElementById("summaryOutfitName");
   if (summaryOutfitName) summaryOutfitName.textContent = `Prenda(s): ${piecesTitle}`;
 
@@ -2693,36 +3092,68 @@ window.updateCluelessView = function() {
   if (summaryOutfitPrice) summaryOutfitPrice.textContent = formatPrice(outfitPrice);
 
   const summaryMakeupName = document.getElementById("summaryMakeupName");
-  if (summaryMakeupName) summaryMakeupName.textContent = `Maquillaje: ${makeup.name}`;
+  if (summaryMakeupName) {
+    summaryMakeupName.textContent = `${cluelessGender === "mujeres" ? "Maquillaje" : "Grooming"}: ${serviceTitle}`;
+  }
 
   const summaryMakeupPrice = document.getElementById("summaryMakeupPrice");
-  if (summaryMakeupPrice) summaryMakeupPrice.textContent = formatPrice(makeup.price);
+  if (summaryMakeupPrice) summaryMakeupPrice.textContent = formatPrice(servicePrice);
 
   const summarySkinToneName = document.getElementById("summarySkinToneName");
-  if (summarySkinToneName) summarySkinToneName.textContent = `Tono de Piel: ${toneData.name}`;
+  if (summarySkinToneName) {
+    summarySkinToneName.textContent = `Tono de Piel: ${cluelessGender === "mujeres" ? toneData.name : menToneData.name}`;
+  }
 
-  const makeupDiscount = Math.round(makeup.price * PROMO_TOTAL_LOOK_DISCOUNT_PCT);
+  const serviceDiscount = Math.round(servicePrice * PROMO_TOTAL_LOOK_DISCOUNT_PCT);
   const discountEl = document.getElementById("summaryDiscountAmount");
-  if (discountEl) discountEl.textContent = `-${formatPrice(makeupDiscount)}`;
+  if (discountEl) discountEl.textContent = `-${formatPrice(serviceDiscount)}`;
 
-  const finalTotal = outfitPrice + makeup.price - makeupDiscount;
+  const finalTotal = outfitPrice + servicePrice - serviceDiscount;
   const summaryTotalPrice = document.getElementById("summaryTotalPrice");
   if (summaryTotalPrice) summaryTotalPrice.textContent = formatPrice(finalTotal);
+
+  const bookBtn = document.getElementById("bookLookBtn");
+  if (bookBtn) {
+    bookBtn.innerHTML = cluelessGender === "mujeres"
+      ? `👑 Reservar Este Total Look Femenino (40% OFF Maquillaje)`
+      : `🎩 Reservar Este Total Look Masculino (40% OFF Grooming)`;
+  }
 };
 
 window.bookCurrentTotalLook = function() {
   const toneData = FITTING_SKIN_TONES[currentFittingTone] || FITTING_SKIN_TONES["clara"];
-  const makeup = FITTING_MAKEUPS_DATA.find((m) => m.id === currentFittingMakeupId) || FITTING_MAKEUPS_DATA[0];
-  const makeupDiscount = Math.round(makeup.price * PROMO_TOTAL_LOOK_DISCOUNT_PCT);
+  const menToneData = MEN_SKIN_MODELS[currentFittingTone] || MEN_SKIN_MODELS["clara"];
 
   let piecesDesc = "";
-  if (cluelessMode === "mix") {
-    const top = CLUELESS_TOPS[currentTopIdx];
-    const bottom = CLUELESS_BOTTOMS[currentBottomIdx];
-    piecesDesc = `${top.name} + ${bottom.name}`;
+  let serviceName = "";
+  let serviceDiscount = 0;
+
+  if (cluelessGender === "mujeres") {
+    const makeup = FITTING_MAKEUPS_DATA.find((m) => m.id === currentFittingMakeupId) || FITTING_MAKEUPS_DATA[0];
+    serviceName = `Maquillaje: ${makeup.name}`;
+    serviceDiscount = Math.round(makeup.price * PROMO_TOTAL_LOOK_DISCOUNT_PCT);
+
+    if (cluelessMode === "mix") {
+      const top = CLUELESS_TOPS[currentTopIdx];
+      const bottom = CLUELESS_BOTTOMS[currentBottomIdx];
+      piecesDesc = `${top.name} + ${bottom.name}`;
+    } else {
+      const gown = CLUELESS_GOWNS[currentGownIdx];
+      piecesDesc = gown.name;
+    }
   } else {
-    const gown = CLUELESS_GOWNS[currentGownIdx];
-    piecesDesc = gown.name;
+    const groom = FITTING_MEN_GROOMING_DATA.find((g) => g.id === currentMenGroomingId) || FITTING_MEN_GROOMING_DATA[0];
+    serviceName = `Grooming Masculino: ${groom.name}`;
+    serviceDiscount = Math.round(groom.price * PROMO_TOTAL_LOOK_DISCOUNT_PCT);
+
+    if (cluelessMode === "mix") {
+      const top = CLUELESS_MEN_TOPS[currentMenTopIdx];
+      const bottom = CLUELESS_MEN_BOTTOMS[currentMenBottomIdx];
+      piecesDesc = `${top.name} + ${bottom.name}`;
+    } else {
+      const suit = CLUELESS_MEN_SUITS[currentMenSuitIdx];
+      piecesDesc = suit.name;
+    }
   }
 
   // 1. Cargar en selector de reserva
@@ -2736,11 +3167,11 @@ window.bookCurrentTotalLook = function() {
     }
   }
 
-  // 2. Cargar maquillaje en selector de formulario
+  // 2. Cargar servicio en formulario
   const clientMakeupSelect = document.getElementById("clientMakeup");
   if (clientMakeupSelect) {
     const matchingMakeup = Array.from(clientMakeupSelect.options).find((opt) =>
-      opt.value.includes("Total Look") || opt.value.toLowerCase().includes(makeup.name.toLowerCase())
+      opt.value.includes("Total Look") || opt.value.toLowerCase().includes(serviceName.toLowerCase())
     );
     if (matchingMakeup) {
       clientMakeupSelect.value = matchingMakeup.value;
@@ -2750,7 +3181,8 @@ window.bookCurrentTotalLook = function() {
   // 3. Asignar tono de piel y detalles del probador en medidas de clienta
   const clientMeasurementsInput = document.getElementById("clientMeasurements");
   if (clientMeasurementsInput) {
-    clientMeasurementsInput.value = `Tono de Piel: ${toneData.name} (${toneData.subtone}). Look Clueless '95 armado (${piecesDesc} + ${makeup.name}). Promo Total Look 40% OFF en Maquillaje (-${formatPrice(makeupDiscount)}).`;
+    const toneLabel = cluelessGender === "mujeres" ? toneData.name : menToneData.name;
+    clientMeasurementsInput.value = `Colección: ${cluelessGender === "mujeres" ? "Damas" : "Caballeros"}. Tono de Piel: ${toneLabel}. Look armado (${piecesDesc} + ${serviceName}). Promo Total Look 40% OFF (-${formatPrice(serviceDiscount)}). WhatsApp Atelier: 3757-511855.`;
   }
 
   // 4. Scroll suave al formulario de reserva
@@ -2759,7 +3191,7 @@ window.bookCurrentTotalLook = function() {
     bookingSection.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  showToast(`👑 ¡Total Look Clueless transferido a tu Ficha de Reserva! (${piecesDesc} • 40% OFF en Maquillaje: -${formatPrice(makeupDiscount)})`);
+  showToast(`👑 ¡Total Look (${cluelessGender === "mujeres" ? "Damas" : "Caballeros"}) cargado en tu Ficha de Reserva! Descuento 40%: -${formatPrice(serviceDiscount)}`);
 };
 
 // Inicialización automática del Probador Clueless
