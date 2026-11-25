@@ -951,7 +951,7 @@ if (checkoutWhatsappBtn) {
     message += `🛡️ *Depósito de Garantía (100% Reembolsable):* ${formatPrice(depositTotal)}%0A`;
     message += `💵 *Total Inicial:* ${formatPrice(grandTotal)}%0A`;
     message += `✔️ *Términos aceptados:* El depósito se reintegra al devolver la prenda en término y buen estado. Entiendo que manchas graves, roturas o no devolución se deducen del depósito o valor de reposición.%0A`;
-    message += `📍 DreesLoop: Av. Victoria Aguirre 480 (Lun a Sáb 7:00-12:00 y 14:00-21:30 hs, Dom cerrado)%0A%0A`;
+    message += `📍 DreesLoop: Av. Victoria Aguirre 412 (Lun a Sáb 7:00-12:00 y 14:00-21:30 hs, Dom cerrado)%0A%0A`;
     message += `¿Me confirman disponibilidad para coordinar prueba presencial? ¡Muchas gracias!`;
 
     const whatsappUrl = `https://wa.me/${IGUAZU_PHONE}?text=${message}`;
